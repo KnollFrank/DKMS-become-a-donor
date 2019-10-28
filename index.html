@@ -33,6 +33,16 @@ html, body {
 	background-color: grey;
 }
 /* freie Klassen */
+/* START: menu */
+ul.menu {
+	list-style-type: none;
+	display: flex;
+	justify-content: space-around;
+}
+ul.menu li a {
+	text-decoration: none;
+}
+/* END: menu */
 .center {
 	max-width: 68.556rem;
 	margin: 0 auto;
@@ -51,13 +61,13 @@ html, body {
 		<input type="text" name="search" placeholder="Suchen">
 	</form>
 	<nav id="language">
-		<ul>
+		<ul class="menu">
 			<li><a href="#">Deutsch</a></li>
 			<li><a href="#">English</a></li>
 		</ul>
 	</nav>
 	<nav>
-		<ul>
+		<ul class="menu">
 			<li><a href="#">Grundlegende Infos</a></li>
 			<li><a href="#">Über uns</a></li>
 			<li><a href="#">Häufige Fragen</a></li>
@@ -66,7 +76,7 @@ html, body {
 		</ul>
 	</nav>
 	<nav>
-		<ul>
+		<ul class="menu">
 			<li><a href="#">Spender werden</a></li>
 			<li><a href="#">Geld spenden</a></li>
 			<li><a href="#">Weitere Hilfsmöglichkeiten</a></li>
@@ -134,7 +144,7 @@ html, body {
 	</nav>
 	<nav id="nav-impressum">
 		<div class="center">
-			<ul>
+			<ul class="menu">
 				<li><a href="#">Impressum</a></li>
 				<li><a href="#">Datenschutz</a></li>
 				<li><a href="#">Disclaimer</a></li>

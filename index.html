@@ -41,10 +41,10 @@ header {
 #nav-grundlegende-infos {
 	margin-top: 22px;
 }
-#nav-grundlegende-infos ul li {
+#nav-grundlegende-infos ul li, #nav-language ul li {
 	margin-left: 0.7rem;
 }
-#nav-grundlegende-infos ul li a {
+#nav-grundlegende-infos ul li a, #nav-language ul li a {
 	color: black;
 }
 #nav-ueber-uns {
@@ -67,6 +67,9 @@ ul.menu li a {
 	text-decoration: none;
 }
 /* END: menu */
+.active-link {
+	font-weight: bold;
+}
 .center {
 	max-width: 68.556rem;
 	margin: 0 auto;
@@ -84,7 +87,7 @@ ul.menu li a {
 	<div class="clearfix"> <img id="img-logo" src="img/logo.png" alt="">
 		<nav id="nav-language">
 			<ul class="menu">
-				<li><a href="#">Deutsch</a></li>
+				<li><a href="#" class="active-link">Deutsch</a></li>
 				<li><a href="#">English</a></li>
 			</ul>
 		</nav>

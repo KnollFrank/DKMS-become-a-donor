@@ -87,6 +87,13 @@ h1 {
 	margin-top: 2.75rem;
 	margin-bottom: 2.75rem;
 }
+#become-a-donor {
+	border: 1px dashed black;
+	height: 350px;
+}
+article {
+	margin-top: 2rem;
+}
 /* freie Klassen */
 /* START: menu */
 ul.menu {
@@ -97,6 +104,17 @@ ul.menu {
 ul.menu li a {
 	text-decoration: none;
 }
+/* START: dreispalter */
+.dreispalter {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	padding: 20px;
+}
+.dreispalter > * {
+	flex-basis: 30%;
+}
+/* END: dreispalter */
 /* END: menu */
 .active-link {
 	font-weight: bold;
@@ -154,25 +172,29 @@ ul.menu li a {
 	<article id="become-a-donor">
 		<h2>Überprüfen Sie die Voraussetzungen</h2>
 	</article>
-	<p>Nur ein Drittel der Patienten findet innerhalb der Familie einen geeigneten Spender. Der Großteil benötigt einen nicht verwandten Spender. Noch immer findet jeder 10. Patient in Deutschland keinen passenden Spender. Das ist der Grund, weshalb wir so viele freiwillige Stammzellspender brauchen.</p>
-	<p>Lesen Sie hier <a href="#">grundlegende Informationen</a> zur Stammzellspende.</p>
+	<article>
+		<p>Nur ein Drittel der Patienten findet innerhalb der Familie einen geeigneten Spender. Der Großteil benötigt einen nicht verwandten Spender. Noch immer findet jeder 10. Patient in Deutschland keinen passenden Spender. Das ist der Grund, weshalb wir so viele freiwillige Stammzellspender brauchen.</p>
+		<p>Lesen Sie hier <a href="#">grundlegende Informationen</a> zur Stammzellspende.</p>
+	</article>
 	<article id="how-stem-cell-donations-work">
 		<h2>So werden Stammzellen entnommen</h2>
-		<section>
-			<h3>Über die Stammzellspende</h3>
-			<p><img src="img/icon_swabbing_02_small_300x200.png" alt=""></p>
-			<p>Nach der Registrierung stehen Ihre Gewebemerkmale für die Suche von Patienten auf der ganzen Welt zur Verfügung. Sollten Sie der passende Spender für einen Patienten sein, nimmt die DKMS Kontakt mit Ihnen auf.</p>
-		</section>
-		<section>
-			<h3>Periphere Stammzellspende</h3>
-			<p><img src="img/pikotogramm_entnahme-periph_300x200.png" alt=""></p>
-			<p>In ca. 80 Prozent der Fälle werden die Stammzellen der Blutbahn entnommen. Es ist keine Operation notwendig.</p>
-		</section>
-		<section>
-			<h3>Knochenmarkspende</h3>
-			<p><img src="img/pikotogramm_entnahme-becken_300x200_0.png" alt=""></p>
-			<p>Bei dieser Methode wird dem Spender unter Vollnarkose aus dem Beckenkamm ca. 5 Prozent seines Knochenmarks entnommen. Innerhalb von zwei bis vier Wochen regeneriert sich das Knochenmark beim Spender.</p>
-		</section>
+		<div class="dreispalter">
+			<section>
+				<h3>Über die Stammzellspende</h3>
+				<p><img src="img/icon_swabbing_02_small_300x200.png" alt=""></p>
+				<p>Nach der Registrierung stehen Ihre Gewebemerkmale für die Suche von Patienten auf der ganzen Welt zur Verfügung. Sollten Sie der passende Spender für einen Patienten sein, nimmt die DKMS Kontakt mit Ihnen auf.</p>
+			</section>
+			<section>
+				<h3>Periphere Stammzellspende</h3>
+				<p><img src="img/pikotogramm_entnahme-periph_300x200.png" alt=""></p>
+				<p>In ca. 80 Prozent der Fälle werden die Stammzellen der Blutbahn entnommen. Es ist keine Operation notwendig.</p>
+			</section>
+			<section>
+				<h3>Knochenmarkspende</h3>
+				<p><img src="img/pikotogramm_entnahme-becken_300x200_0.png" alt=""></p>
+				<p>Bei dieser Methode wird dem Spender unter Vollnarkose aus dem Beckenkamm ca. 5 Prozent seines Knochenmarks entnommen. Innerhalb von zwei bis vier Wochen regeneriert sich das Knochenmark beim Spender.</p>
+			</section>
+		</div>
 	</article>
 	<article id="other-ways-to-help">
 		<h2>other-ways-to-help</h2>

@@ -12,6 +12,7 @@ Anforderungen der technischen Umsetzung
 - Grafiken in Photoshop für Web optimieren
 - mind. 1 Seitenelement frameworkbasierend bzw. JavaScript (Bildergalerie, Slider, …)
   - baue die Bildergalerie von https://www.dkms.de/de ein.
+  - lasse die Texte und Pfeile in other-ways-to-help z.B. beim Scrollen von links und rechts einfliegen
 - Download einer pdf-Datei ermöglichen
 - auf den 4 gängigen Browsern fehlerfrei dargestellt
 - Suchmaschinenoptimierung (meta-Tags, robots.txt, sitemap.xml, keywords im Text verwenden)

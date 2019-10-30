@@ -45,17 +45,21 @@
 			setCloseClassOn(filterOpen(getDetailLinks()));
 		}
 
+		function openOrCloseDetailsReferencedBy($link) {
+			var $content = $($link.attr("href"));
+			var shallOpenContent = $content.hasClass($closedClass);
+			var animationTime = 500;
+
+			closeOpenContents(animationTime);
+			if (shallOpenContent) {
+				openContent($content, $link, animationTime);
+			}
+		}
+
 		$(document).ready(function() {
 			getDetailLinks().click(function(event) {
 				event.preventDefault();
-				var $content = $($(this).attr("href"));
-				var shallOpenContent = $content.hasClass($closedClass);
-				var animationTime = 500;
-
-				closeOpenContents(animationTime);
-				if (shallOpenContent) {
-					openContent($content, $(this), animationTime);
-				}
+				openOrCloseDetailsReferencedBy($(this));
 			});
 		});
 	</script>

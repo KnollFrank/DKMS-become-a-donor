@@ -15,14 +15,17 @@
 			return $('a.details-link');
 		}
 
+		function removeAndAddClass($obj, class2Remove, class2Add) {
+			return $obj.removeClass(class2Remove)
+				.addClass(class2Add);
+		}
+
 		function setOpenClassOn($obj) {
-			return $obj.removeClass($closedClass)
-				.addClass($openClass);
+			return removeAndAddClass($obj, $closedClass, $openClass);
 		}
 
 		function setCloseClassOn($obj) {
-			return $obj.removeClass($openClass)
-				.addClass($closedClass);
+			return removeAndAddClass($obj, $openClass, $closedClass);
 		}
 
 		function filterOpen($objs) {

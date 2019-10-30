@@ -43,11 +43,11 @@
 			getDetailLinks().click(function(event) {
 				event.preventDefault();
 				var $content = $($(this).attr("href"));
-				var isContentClosed = !$content.hasClass('open');
+				var shallOpenContent = !$content.hasClass('open');
 				var animationTime = 500;
 
 				closeOpenContents(animationTime);
-				if (isContentClosed) {
+				if (shallOpenContent) {
 					openContent($(this), $content, animationTime);
 				}
 			});

@@ -17,13 +17,24 @@
 			var $content = $($this.attr("href"));
 			var animationTime = 500;
 			if ($content.hasClass('open')) {
-				$content.slideUp(animationTime).addClass('closed').removeClass('open');
-				$this.removeClass('open').addClass('closed')
+				$content.slideUp(animationTime)
+						.addClass('closed')
+						.removeClass('open');
+				$this.removeClass('open')
+					  .addClass('closed')
 			} else {
-				$contents.filter('.open').slideUp(animationTime).addClass('closed').removeClass('open');
-				$links.filter('.open').addClass('closed').removeClass('open');
-				$content.slideDown(animationTime).addClass('open').removeClass('closed');
-				$this.removeClass('closed').addClass('open')
+				$contents.filter('.open')
+						 .slideUp(animationTime)
+						 .addClass('closed')
+						 .removeClass('open');
+				$links.filter('.open')
+					  .addClass('closed')
+					  .removeClass('open');
+				$content.slideDown(animationTime)
+						.addClass('open')
+						.removeClass('closed');
+				$this.removeClass('closed')
+					  .addClass('open')
 			}
 		});
 	});

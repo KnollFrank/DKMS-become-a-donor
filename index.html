@@ -31,10 +31,14 @@
 					return $obj.removeClass('open')
 							   .addClass('closed');
 				}
+				
+				function filterOpen($objs) {
+					return $objs.filter('.open');
+				}
 
-				$contents.filter('.open').slideUp(animationTime);
-				setCloseClassOn($contents.filter('.open'));
-				setCloseClassOn($links.filter('.open'));
+				filterOpen($contents).slideUp(animationTime);
+				setCloseClassOn(filterOpen($contents));
+				setCloseClassOn(filterOpen($links));
 			}
 
 			var isContentClosed = !$content.hasClass('open');

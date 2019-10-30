@@ -11,7 +11,7 @@
 		function getDetailLinks() {
 			return $('a.details-link');
 		}
-		var $contents = $('.details-content');
+		
 		getDetailLinks().click(function (event) {			
 			event.preventDefault();
 			var $content = $($(this).attr("href"));
@@ -37,9 +37,10 @@
 				function filterOpen($objs) {
 					return $objs.filter('.open');
 				}
-
-				filterOpen($contents).slideUp(animationTime);
-				setCloseClassOn(filterOpen($contents));
+				
+				var $detailContents = $('.details-content');
+				filterOpen($detailContents).slideUp(animationTime);
+				setCloseClassOn(filterOpen($detailContents));
 				setCloseClassOn(filterOpen(getDetailLinks()));
 			}
 

@@ -12,42 +12,42 @@
 			return $('a.details-link');
 		}
 		
+		function openContent($content, animationTime) {
+			function setOpenClassOn($obj) {
+				return $obj.removeClass('closed')
+						   .addClass('open');
+			}
+
+			$content.slideDown(animationTime);
+			setOpenClassOn($content);
+			setOpenClassOn($(this));
+		}
+		
+		function closeOpenContents(animationTime) {
+			function setCloseClassOn($obj) {
+				return $obj.removeClass('open')
+						   .addClass('closed');
+			}
+
+			function filterOpen($objs) {
+				return $objs.filter('.open');
+			}
+
+			var $detailContents = $('.details-content');
+			filterOpen($detailContents).slideUp(animationTime);
+			setCloseClassOn(filterOpen($detailContents));
+			setCloseClassOn(filterOpen(getDetailLinks()));
+		}
+		
 		getDetailLinks().click(function (event) {			
 			event.preventDefault();
 			var $content = $($(this).attr("href"));
 			var animationTime = 500;
-			
-			function openContent($content) {
-				function setOpenClassOn($obj) {
-					return $obj.removeClass('closed')
-							   .addClass('open');
-				}
-
-				$content.slideDown(animationTime);
-				setOpenClassOn($content);
-				setOpenClassOn($(this));
-			}
-			
-			function closeOpenContents() {
-				function setCloseClassOn($obj) {
-					return $obj.removeClass('open')
-							   .addClass('closed');
-				}
-				
-				function filterOpen($objs) {
-					return $objs.filter('.open');
-				}
-				
-				var $detailContents = $('.details-content');
-				filterOpen($detailContents).slideUp(animationTime);
-				setCloseClassOn(filterOpen($detailContents));
-				setCloseClassOn(filterOpen(getDetailLinks()));
-			}
-
+						
 			var isContentClosed = !$content.hasClass('open');
-			closeOpenContents();
+			closeOpenContents(animationTime);
 			if (isContentClosed) {
-				openContent($content);
+				openContent($content, animationTime);
 			}
 		});
 	});

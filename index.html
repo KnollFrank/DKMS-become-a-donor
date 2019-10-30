@@ -43,7 +43,7 @@
 			getDetailLinks().click(function(event) {
 				event.preventDefault();
 				var $content = $($(this).attr("href"));
-				var shallOpenContent = !$content.hasClass('open');
+				var shallOpenContent = $content.hasClass('closed');
 				var animationTime = 500;
 
 				closeOpenContents(animationTime);
@@ -473,7 +473,7 @@
 							<p><img src="img/icon_swabbing_02_small_300x200.png" alt=""></p>
 							<p>Nach der Registrierung stehen Ihre Gewebemerkmale für die Suche von Patienten auf der ganzen Welt zur Verfügung. Sollten Sie der passende Spender für einen Patienten sein, nimmt die DKMS Kontakt mit Ihnen auf.</p>
 						</header>
-						<p><a href="#details-ueber-die-stammzellspende" class="details-link">Weiterlesen</a></p>
+						<p><a href="#details-ueber-die-stammzellspende" class="details-link closed">Weiterlesen</a></p>
 					</section>
 					<section>
 						<header>
@@ -481,7 +481,7 @@
 							<p><img src="img/pikotogramm_entnahme-periph_300x200.png" alt=""></p>
 							<p>In ca. 80 Prozent der Fälle werden die Stammzellen der Blutbahn entnommen. Es ist keine Operation notwendig.</p>
 						</header>
-						<p><a href="#details-periphere-stammzellspende" class="details-link">Weiterlesen</a></p>
+						<p><a href="#details-periphere-stammzellspende" class="details-link closed">Weiterlesen</a></p>
 					</section>
 					<section>
 						<header>
@@ -489,7 +489,7 @@
 							<p><img src="img/pikotogramm_entnahme-becken_300x200_0.png" alt=""></p>
 							<p>Bei dieser Methode wird dem Spender unter Vollnarkose aus dem Beckenkamm ca. 5 Prozent seines Knochenmarks entnommen. Innerhalb von zwei bis vier Wochen regeneriert sich das Knochenmark beim Spender.</p>
 						</header>
-						<p><a href="#details-knochenmarkspende" class="details-link">Weiterlesen</a></p>
+						<p><a href="#details-knochenmarkspende" class="details-link closed">Weiterlesen</a></p>
 					</section>
 				</div>
 				<div id="details-ueber-die-stammzellspende" class="details-content closed">

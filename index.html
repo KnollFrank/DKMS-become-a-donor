@@ -18,21 +18,21 @@
 			var animationTime = 500;
 			if ($content.hasClass('open')) {
 				$content.slideUp(animationTime)
-						.addClass('closed')
-						.removeClass('open');
+						.removeClass('open')
+						.addClass('closed');
 				$this.removeClass('open')
 					  .addClass('closed')
 			} else {
 				$contents.filter('.open')
 						 .slideUp(animationTime)
-						 .addClass('closed')
-						 .removeClass('open');
+						 .removeClass('open')
+						 .addClass('closed');
 				$links.filter('.open')
-					  .addClass('closed')
-					  .removeClass('open');
+					  .removeClass('open')
+					  .addClass('closed');
 				$content.slideDown(animationTime)
-						.addClass('open')
-						.removeClass('closed');
+						.removeClass('closed')
+						.addClass('open');
 				$this.removeClass('closed')
 					  .addClass('open')
 			}

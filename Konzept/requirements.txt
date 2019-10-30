@@ -16,3 +16,5 @@ Anforderungen der technischen Umsetzung
 - Download einer pdf-Datei ermöglichen
 - auf den 4 gängigen Browsern fehlerfrei dargestellt
 - Suchmaschinenoptimierung (meta-Tags, robots.txt, sitemap.xml, keywords im Text verwenden)
+
+TODO: - style WEITERLESEN-content

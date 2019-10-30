@@ -10,29 +10,38 @@
 	$(document).ready(function() {
 		var $links = $('a.details-link');
 		var $contents = $('.details-content');
-		$links.click(function (event) {
-			function setCloseClassOn($obj) {
-				return $obj.removeClass('open')
-						   .addClass('closed');
-			}
-
-			function setOpenClassOn($obj) {
-				return $obj.removeClass('closed')
-						   .addClass('open');
-			}
-			
+		$links.click(function (event) {			
 			event.preventDefault();
 			var $this = $(this);
 			var $content = $($this.attr("href"));
 			var animationTime = 500;
-			var isContentClosed = !$content.hasClass('open');
-			$contents.filter('.open').slideUp(animationTime);
-			setCloseClassOn($contents.filter('.open'));
-			setCloseClassOn($links.filter('.open'));
-			if (isContentClosed) {				
+			
+			function openContent($content) {
+				function setOpenClassOn($obj) {
+					return $obj.removeClass('closed')
+							   .addClass('open');
+				}
+
 				$content.slideDown(animationTime);
 				setOpenClassOn($content);
 				setOpenClassOn($this);
+			}
+			
+			function closeOpenContents() {
+				function setCloseClassOn($obj) {
+					return $obj.removeClass('open')
+							   .addClass('closed');
+				}
+
+				$contents.filter('.open').slideUp(animationTime);
+				setCloseClassOn($contents.filter('.open'));
+				setCloseClassOn($links.filter('.open'));
+			}
+
+			var isContentClosed = !$content.hasClass('open');
+			closeOpenContents();
+			if (isContentClosed) {
+				openContent($content);
 			}
 		});
 	});

@@ -8,6 +8,7 @@
 <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script> 
 <script>
 	$(document).ready(function() {
+		// FK-TODO: refactor
 		var $anchors = $('a.details-link'),
 			$sections = $('.details-content');
 		$anchors.click(function (event) {
@@ -213,6 +214,9 @@ article {
 #how-stem-cell-donations-work section header {
 	height: 390px;
 }
+#how-stem-cell-donations-work h2, #how-stem-cell-donations-work section header h3 {
+	margin-bottom: 1rem;
+}
 .details-content.closed {
 	display: none;
 }
@@ -287,7 +291,6 @@ ul.menu li a {
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-between;
-	padding: 20px;
 }
 .dreispalter > * {
 	flex-basis: 30%;

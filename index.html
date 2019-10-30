@@ -12,29 +12,28 @@
 			return $('a.details-link');
 		}
 
-		function openContent($link, $content, animationTime) {
-			function setOpenClassOn($obj) {
-				return $obj.removeClass('closed')
-					.addClass('open');
-			}
+		function setOpenClassOn($obj) {
+			return $obj.removeClass('closed')
+				.addClass('open');
+		}
 
+		function setCloseClassOn($obj) {
+			return $obj.removeClass('open')
+				.addClass('closed');
+		}
+
+		function filterOpen($objs) {
+			return $objs.filter('.open');
+		}
+
+		function openContent($link, $content, animationTime) {
 			$content.slideDown(animationTime);
 			setOpenClassOn($content);
 			setOpenClassOn($link);
 		}
 
 		function closeOpenContents(animationTime) {
-			function setCloseClassOn($obj) {
-				return $obj.removeClass('open')
-					.addClass('closed');
-			}
-
-			function filterOpen($objs) {
-				return $objs.filter('.open');
-			}
-
-			var $detailContents = $('.details-content');
-			var $openContents = filterOpen($detailContents);
+			var $openContents = filterOpen($('.details-content'));
 			$openContents.slideUp(animationTime);
 			setCloseClassOn($openContents);
 			setCloseClassOn(filterOpen(getDetailLinks()));

@@ -17,25 +17,13 @@
 				id = $this.attr("href"),
 				$targetLearnMore = $(id),
 				animationTime = 500;
-			var width = jQuery(window).width();
-			if (width < 960) {
-				$this.blur();
-				$this.after($targetLearnMore)
-			};
 			if ($targetLearnMore.hasClass('open')) {
 				$targetLearnMore.slideUp(animationTime).addClass('closed').removeClass('open');
 				$this.removeClass('open').addClass('closed')
 			} else {
 				$contents.filter('.open').slideUp(animationTime).addClass('closed').removeClass('open');
 				$links.filter('.open').addClass('closed').removeClass('open');
-				$targetLearnMore.slideDown(animationTime, function () {
-					if (width < 960) {
-						var scrollPos = Math.round(jQuery(id).offset().top - 85);
-						jQuery('html, body').animate({
-							scrollTop: scrollPos
-						}, 500)
-					};
-				}).addClass('open').removeClass('closed');
+				$targetLearnMore.slideDown(animationTime).addClass('open').removeClass('closed');
 				$this.removeClass('closed').addClass('open')
 			}
 		});

@@ -8,22 +8,25 @@
 	<!-- user-scalable=no -->
 	<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
 	<script>
+		var $closedClass = 'details-closed';
+		var $openClass = 'details-open';
+
 		function getDetailLinks() {
 			return $('a.details-link');
 		}
 
 		function setOpenClassOn($obj) {
-			return $obj.removeClass('details-closed')
-				.addClass('details-open');
+			return $obj.removeClass($closedClass)
+				.addClass($openClass);
 		}
 
 		function setCloseClassOn($obj) {
-			return $obj.removeClass('details-open')
-				.addClass('details-closed');
+			return $obj.removeClass($openClass)
+				.addClass($closedClass);
 		}
 
 		function filterOpen($objs) {
-			return $objs.filter('.details-open');
+			return $objs.filter('.' + $openClass);
 		}
 
 		function openContent($content, $link, animationTime) {
@@ -43,7 +46,7 @@
 			getDetailLinks().click(function(event) {
 				event.preventDefault();
 				var $content = $($(this).attr("href"));
-				var shallOpenContent = $content.hasClass('details-closed');
+				var shallOpenContent = $content.hasClass($closedClass);
 				var animationTime = 500;
 
 				closeOpenContents(animationTime);

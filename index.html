@@ -15,16 +15,8 @@
 			event.preventDefault();
 			var $this = $(this),
 				id = $this.attr("href"),
-				placeholder_id = id + "_placeholder",
 				$targetLearnMore = $(id),
-				animationTime = 500,
-				$placeholder = $(placeholder_id);
-			if (!$placeholder.length) {
-				$placeholder = $('<div/>', {
-					id: placeholder_id.substring(1)
-				});
-				$targetLearnMore.after($placeholder)
-			};
+				animationTime = 500;
 			var width = jQuery(window).width();
 			if (width < 960) {
 				$this.blur();

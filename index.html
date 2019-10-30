@@ -8,39 +8,39 @@
 	<!-- user-scalable=no -->
 	<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
 	<script>
+		function getDetailLinks() {
+			return $('a.details-link');
+		}
+
+		function openContent($content, animationTime) {
+			function setOpenClassOn($obj) {
+				return $obj.removeClass('closed')
+					.addClass('open');
+			}
+
+			$content.slideDown(animationTime);
+			setOpenClassOn($content);
+			setOpenClassOn($(this));
+		}
+
+		function closeOpenContents(animationTime) {
+			function setCloseClassOn($obj) {
+				return $obj.removeClass('open')
+					.addClass('closed');
+			}
+
+			function filterOpen($objs) {
+				return $objs.filter('.open');
+			}
+
+			var $detailContents = $('.details-content');
+			var $openContents = filterOpen($detailContents);
+			$openContents.slideUp(animationTime);
+			setCloseClassOn($openContents);
+			setCloseClassOn(filterOpen(getDetailLinks()));
+		}
+
 		$(document).ready(function() {
-			function getDetailLinks() {
-				return $('a.details-link');
-			}
-
-			function openContent($content, animationTime) {
-				function setOpenClassOn($obj) {
-					return $obj.removeClass('closed')
-						.addClass('open');
-				}
-
-				$content.slideDown(animationTime);
-				setOpenClassOn($content);
-				setOpenClassOn($(this));
-			}
-
-			function closeOpenContents(animationTime) {
-				function setCloseClassOn($obj) {
-					return $obj.removeClass('open')
-						.addClass('closed');
-				}
-
-				function filterOpen($objs) {
-					return $objs.filter('.open');
-				}
-
-				var $detailContents = $('.details-content');
-				var $openContents = filterOpen($detailContents);
-				$openContents.slideUp(animationTime);
-				setCloseClassOn($openContents);
-				setCloseClassOn(filterOpen(getDetailLinks()));
-			}
-
 			getDetailLinks().click(function(event) {
 				event.preventDefault();
 				var $content = $($(this).attr("href"));

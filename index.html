@@ -26,7 +26,7 @@
 			return $objs.filter('.open');
 		}
 
-		function openContent($link, $content, animationTime) {
+		function openContent($content, $link, animationTime) {
 			$content.slideDown(animationTime);
 			setOpenClassOn($content);
 			setOpenClassOn($link);
@@ -48,7 +48,7 @@
 
 				closeOpenContents(animationTime);
 				if (shallOpenContent) {
-					openContent($(this), $content, animationTime);
+					openContent($content, $(this), animationTime);
 				}
 			});
 		});

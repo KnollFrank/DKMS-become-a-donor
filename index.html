@@ -13,17 +13,17 @@
 		}
 
 		function setOpenClassOn($obj) {
-			return $obj.removeClass('closed')
-				.addClass('open');
+			return $obj.removeClass('details-closed')
+				.addClass('details-open');
 		}
 
 		function setCloseClassOn($obj) {
-			return $obj.removeClass('open')
-				.addClass('closed');
+			return $obj.removeClass('details-open')
+				.addClass('details-closed');
 		}
 
 		function filterOpen($objs) {
-			return $objs.filter('.open');
+			return $objs.filter('.details-open');
 		}
 
 		function openContent($content, $link, animationTime) {
@@ -43,7 +43,7 @@
 			getDetailLinks().click(function(event) {
 				event.preventDefault();
 				var $content = $($(this).attr("href"));
-				var shallOpenContent = $content.hasClass('closed');
+				var shallOpenContent = $content.hasClass('details-closed');
 				var animationTime = 500;
 
 				closeOpenContents(animationTime);
@@ -278,11 +278,11 @@
 			margin-top: 1rem;
 		}
 
-		.details-content.closed {
+		.details-content.details-closed {
 			display: none;
 		}
 
-		.details-link.open {
+		.details-link.details-open {
 			color: red;
 		}
 
@@ -473,7 +473,7 @@
 							<p><img src="img/icon_swabbing_02_small_300x200.png" alt=""></p>
 							<p>Nach der Registrierung stehen Ihre Gewebemerkmale für die Suche von Patienten auf der ganzen Welt zur Verfügung. Sollten Sie der passende Spender für einen Patienten sein, nimmt die DKMS Kontakt mit Ihnen auf.</p>
 						</header>
-						<p><a href="#details-ueber-die-stammzellspende" class="details-link closed">Weiterlesen</a></p>
+						<p><a href="#details-ueber-die-stammzellspende" class="details-link details-closed">Weiterlesen</a></p>
 					</section>
 					<section>
 						<header>
@@ -481,7 +481,7 @@
 							<p><img src="img/pikotogramm_entnahme-periph_300x200.png" alt=""></p>
 							<p>In ca. 80 Prozent der Fälle werden die Stammzellen der Blutbahn entnommen. Es ist keine Operation notwendig.</p>
 						</header>
-						<p><a href="#details-periphere-stammzellspende" class="details-link closed">Weiterlesen</a></p>
+						<p><a href="#details-periphere-stammzellspende" class="details-link details-closed">Weiterlesen</a></p>
 					</section>
 					<section>
 						<header>
@@ -489,10 +489,10 @@
 							<p><img src="img/pikotogramm_entnahme-becken_300x200_0.png" alt=""></p>
 							<p>Bei dieser Methode wird dem Spender unter Vollnarkose aus dem Beckenkamm ca. 5 Prozent seines Knochenmarks entnommen. Innerhalb von zwei bis vier Wochen regeneriert sich das Knochenmark beim Spender.</p>
 						</header>
-						<p><a href="#details-knochenmarkspende" class="details-link closed">Weiterlesen</a></p>
+						<p><a href="#details-knochenmarkspende" class="details-link details-closed">Weiterlesen</a></p>
 					</section>
 				</div>
-				<div id="details-ueber-die-stammzellspende" class="details-content closed">
+				<div id="details-ueber-die-stammzellspende" class="details-content details-closed">
 					<p>Sollten Sie von uns die Nachricht bekommen, dass Ihre Gewebemerkmale mit denen eines Patienten übereinstimmen, informieren wir Sie eingehend über die nächsten Schritte. Im Folgenden geben wir Ihnen schon einmal eine Übersicht, was Sie in
 						der Regel bis zur Stammzellspende erwartet.</p>
 					<h3>Gesundheitscheck und Bestätigungstypisierung – Confirmatory Typing (CT)</h3>
@@ -512,13 +512,13 @@
 						<a href="#">Nachricht schreiben</a>
 					</footer>
 				</div>
-				<div id="details-periphere-stammzellspende" class="details-content closed">
+				<div id="details-periphere-stammzellspende" class="details-content details-closed">
 					<p>So funktioniert's:</p>
 					<p>Dem Spender wird über fünf Tage hinweg der Wachstumsfaktor G-CSF verabreicht. Dieses Medikament steigert die Anzahl der Stammzellen im peripheren Blut, die dann über ein spezielles Verfahren direkt aus dem Blut gewonnen werden. Die
 						Spende dauert 4-8 Stunden an ein bis zwei aufeinanderfolgenden Tagen. Dieses Verfahren wird bei der DKMS seit 1996 angewandt. Während der Gabe des Medikaments können grippeähnliche Symptome auftreten. Langzeitnebenwirkungen sind nach dem
 						heutigen Forschungsstand nicht bekannt.</p>
 				</div>
-				<div id="details-knochenmarkspende" class="details-content closed">
+				<div id="details-knochenmarkspende" class="details-content details-closed">
 					<p>Hierbei genügen in der Regel zwei kleine Einschnitte im Bereich des hinteren Beckenknochens. Die Entnahme erfolgt in Bauchlage und dauert etwa 60 Minuten. Bei der Knochenmarkspende beschränkt sich das Risiko im Wesentlichen auf die
 						Narkose. Nach der Entnahme kann für wenige Tage ein lokaler Wundschmerz entstehen – ähnlich dem einer Prellung.</p>
 					<p>Zur Knochenmarkentnahme bleibt der Spender für 2 bis 3 Tage im Krankenhaus. Anschließend sollte der Spender nach Rücksprache mit der Entnahmeklinik zur Erholung für ein paar Tage Zuhause bleiben.</p>

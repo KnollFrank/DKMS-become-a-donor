@@ -9,14 +9,13 @@
 <script>
 	$(document).ready(function() {
 		// FK-TODO: refactor
-		var $links = $('a.details-link'),
-			$contents = $('.details-content');
+		var $links = $('a.details-link');
+		var $contents = $('.details-content');
 		$links.click(function (event) {
 			event.preventDefault();
-			var $this = $(this),
-				id = $this.attr("href"),
-				$targetLearnMore = $(id),
-				animationTime = 500;
+			var $this = $(this);
+			var $targetLearnMore = $($this.attr("href"));
+			var animationTime = 500;
 			if ($targetLearnMore.hasClass('open')) {
 				$targetLearnMore.slideUp(animationTime).addClass('closed').removeClass('open');
 				$this.removeClass('open').addClass('closed')

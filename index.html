@@ -34,17 +34,18 @@
 			}
 
 			var $detailContents = $('.details-content');
-			filterOpen($detailContents).slideUp(animationTime);
-			setCloseClassOn(filterOpen($detailContents));
+			var $openContents = filterOpen($detailContents);
+			$openContents.slideUp(animationTime);
+			setCloseClassOn($openContents);
 			setCloseClassOn(filterOpen(getDetailLinks()));
 		}
 		
 		getDetailLinks().click(function (event) {			
 			event.preventDefault();
 			var $content = $($(this).attr("href"));
+			var isContentClosed = !$content.hasClass('open');
 			var animationTime = 500;
 						
-			var isContentClosed = !$content.hasClass('open');
 			closeOpenContents(animationTime);
 			if (isContentClosed) {
 				openContent($content, animationTime);

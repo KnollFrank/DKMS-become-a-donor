@@ -26,12 +26,12 @@
 			var $this = $(this);
 			var $content = $($this.attr("href"));
 			var animationTime = 500;
+			$contents.filter('.open').slideUp(animationTime);
 			if ($content.hasClass('open')) {
-				$content.slideUp(animationTime);
 				setCloseClassOn($content);
 				setCloseClassOn($this);
 			} else { /* $content.hasClass('closed') */
-				setCloseClassOn($contents.filter('.open')).slideUp(animationTime);
+				setCloseClassOn($contents.filter('.open'));
 				setCloseClassOn($links.filter('.open'));
 				$content.slideDown(animationTime);
 				setOpenClassOn($content);

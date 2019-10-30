@@ -45,7 +45,7 @@
 			setCloseClassOn(filterOpen(getDetailLinks()));
 		}
 
-		function openOrCloseDetailsReferencedBy($link) {
+		function openOrCloseContentReferencedBy($link) {
 			var $content = $($link.attr("href"));
 			var shallOpenContent = $content.hasClass($closedClass);
 			var animationTime = 500;
@@ -59,7 +59,8 @@
 		$(document).ready(function() {
 			getDetailLinks().click(function(event) {
 				event.preventDefault();
-				openOrCloseDetailsReferencedBy($(this));
+				var $detailsLink = $(this);
+				openOrCloseContentReferencedBy($detailsLink);
 			});
 		});
 	</script>

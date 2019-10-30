@@ -14,15 +14,15 @@
 		$links.click(function (event) {
 			event.preventDefault();
 			var $this = $(this);
-			var $targetLearnMore = $($this.attr("href"));
+			var $content = $($this.attr("href"));
 			var animationTime = 500;
-			if ($targetLearnMore.hasClass('open')) {
-				$targetLearnMore.slideUp(animationTime).addClass('closed').removeClass('open');
+			if ($content.hasClass('open')) {
+				$content.slideUp(animationTime).addClass('closed').removeClass('open');
 				$this.removeClass('open').addClass('closed')
 			} else {
 				$contents.filter('.open').slideUp(animationTime).addClass('closed').removeClass('open');
 				$links.filter('.open').addClass('closed').removeClass('open');
-				$targetLearnMore.slideDown(animationTime).addClass('open').removeClass('closed');
+				$content.slideDown(animationTime).addClass('open').removeClass('closed');
 				$this.removeClass('closed').addClass('open')
 			}
 		});

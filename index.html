@@ -8,7 +8,6 @@
 <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script> 
 <script>
 	$(document).ready(function() {
-		// FK-TODO: refactor
 		var $links = $('a.details-link');
 		var $contents = $('.details-content');
 		$links.click(function (event) {
@@ -33,6 +32,7 @@
 			} else { /* $content.hasClass('closed') */
 				setCloseClassOn($contents.filter('.open'));
 				setCloseClassOn($links.filter('.open'));
+				
 				$content.slideDown(animationTime);
 				setOpenClassOn($content);
 				setOpenClassOn($this);

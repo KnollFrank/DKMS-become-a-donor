@@ -9,9 +9,9 @@
 <script>
 	$(document).ready(function() {
 		// FK-TODO: refactor
-		var $anchors = $('a.details-link'),
-			$sections = $('.details-content');
-		$anchors.click(function (event) {
+		var $links = $('a.details-link'),
+			$contents = $('.details-content');
+		$links.click(function (event) {
 			event.preventDefault();
 			var $this = $(this),
 				id = $this.attr("href"),
@@ -34,8 +34,8 @@
 				$targetLearnMore.slideUp(animationTime).addClass('closed').removeClass('open');
 				$this.removeClass('open').addClass('closed')
 			} else {
-				$sections.filter('.open').slideUp(animationTime).addClass('closed').removeClass('open');
-				$anchors.filter('.open').addClass('closed').removeClass('open');
+				$contents.filter('.open').slideUp(animationTime).addClass('closed').removeClass('open');
+				$links.filter('.open').addClass('closed').removeClass('open');
 				$targetLearnMore.slideDown(animationTime, function () {
 					if (width < 960) {
 						var scrollPos = Math.round(jQuery(id).offset().top - 85);

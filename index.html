@@ -12,8 +12,7 @@
 		var $contents = $('.details-content');
 		$links.click(function (event) {			
 			event.preventDefault();
-			var $this = $(this);
-			var $content = $($this.attr("href"));
+			var $content = $($(this).attr("href"));
 			var animationTime = 500;
 			
 			function openContent($content) {
@@ -24,7 +23,7 @@
 
 				$content.slideDown(animationTime);
 				setOpenClassOn($content);
-				setOpenClassOn($this);
+				setOpenClassOn($(this));
 			}
 			
 			function closeOpenContents() {

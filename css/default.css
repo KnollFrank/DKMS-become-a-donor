@@ -134,7 +134,7 @@ body>header {
 }
 
 #form-search input {
-  background: url('img/bg-search-form-input.png') no-repeat right center;
+  background: url('../img/bg-search-form-input.png') no-repeat right center;
   padding: 3px 0 3px 10px;
   height: 34px;
   border-radius: 3px;
@@ -267,7 +267,7 @@ article {
 }
 
 #other-ways-to-help header {
-  background: url('img/other_ways_to_help_bg.png') no-repeat;
+  background: url('../img/other_ways_to_help_bg.png') no-repeat;
   background-position: center center;
   height: 130px;
   margin-bottom: 1rem;

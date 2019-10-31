@@ -1,5 +1,12 @@
 @charset "utf-8";
 
+@font-face {
+  font-family: "DKMS-Brushed";
+  src: url(../fonts/DKMS-Brushed.eot);
+  src: url(../fonts/DKMS-Brushed-iefix.eot) format('embedded-opentype'), url(../fonts/DKMS-Brushed.woff) format('woff'), url(../fonts/DKMS-Brushed.ttf) format('truetype');
+  font-display: swap
+}
+
 * {
   margin: 0;
   padding: 0;
@@ -22,6 +29,11 @@ body {
 
 body>header {
   padding-top: 1.5rem;
+}
+
+main h1 {
+  font-family: "DKMS-Brushed", Arial, Helvetica, "Nimbus Sans L", sans-serif;
+  font-weight: 400;
 }
 
 #img-logo {
@@ -274,10 +286,12 @@ article {
 }
 
 #other-ways-to-help header h3 {
+  font-family: "DKMS-Brushed", Arial, Helvetica, "Nimbus Sans L", sans-serif;
   float: left;
   width: 50%;
   color: white;
   font-size: 1.9rem;
+  font-weight: 400;
   padding-top: 30px;
 }
 

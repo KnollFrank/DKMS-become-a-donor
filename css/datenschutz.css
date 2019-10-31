@@ -30,12 +30,7 @@ label[for^="checker"] {
 }
 
 .accSegment {
-  border: 1px solid #aaa;
   margin: 2px;
-}
-
-.accSegment h2 {
-  background: linen;
 }
 
 /* Drehpfeil mmmmmmmmmmmmmmmmmmmmmmmmmmmmmm*/

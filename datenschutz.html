@@ -1,0 +1,390 @@
+<!doctype html>
+<html lang="de">
+
+<head>
+	<title>Datenschutzbestimmungen der DKMS gemeinnützige GmbH</title>
+	<meta charset="utf-8" />
+	<link rel="icon" href="https://www.dkms.de/sites/all/themes/dkms/favicon.ico" type="image/vnd.microsoft.icon">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<!-- user-scalable=no -->
+	<!-- START: favicon generated with https://www.favicon-generator.org/ -->
+	<link rel="apple-touch-icon" sizes="57x57" href="img/icon/apple-icon-57x57.png">
+	<link rel="apple-touch-icon" sizes="60x60" href="img/icon/apple-icon-60x60.png">
+	<link rel="apple-touch-icon" sizes="72x72" href="img/icon/apple-icon-72x72.png">
+	<link rel="apple-touch-icon" sizes="76x76" href="img/icon/apple-icon-76x76.png">
+	<link rel="apple-touch-icon" sizes="114x114" href="img/icon/apple-icon-114x114.png">
+	<link rel="apple-touch-icon" sizes="120x120" href="img/icon/apple-icon-120x120.png">
+	<link rel="apple-touch-icon" sizes="144x144" href="img/icon/apple-icon-144x144.png">
+	<link rel="apple-touch-icon" sizes="152x152" href="img/icon/apple-icon-152x152.png">
+	<link rel="icon" type="image/png" sizes="192x192" href="/android-icon-192x192.png">
+	<link rel="apple-touch-icon" sizes="180x180" href="img/iconimg/icon/apple-icon-180x180.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="img/icon/favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="96x96" href="img/icon/favicon-96x96.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="img/icon/favicon-16x16.png">
+	<link rel="manifest" href="img/icon/manifest.json">
+	<meta name="msapplication-TileColor" content="#ffffff">
+	<meta name="msapplication-TileImage" content="img/icon/ms-icon-144x144.png">
+	<meta name="theme-color" content="#ffffff">
+	<!-- END: favicon-->
+	<link href="css/default.css" rel="stylesheet">
+	<!--<link href="css/impressum.css" rel="stylesheet">-->
+	<style>
+		* {
+			margin: 0;
+			padding: 0;
+			box-sizing: border-box;
+		}
+
+		body {
+			font-family: Verdana, Arial, sans-serif;
+			font-size: 14px;
+		}
+
+		img {
+			max-width: 100%;
+			height: auto;
+		}
+
+		/* Accordion - Funktionalität mmmmmmmmmmmmmmmmmmmm*/
+		input[name="accInput"] {
+			display: none;
+		}
+
+		.accSegment>section {
+			/* display:none; */
+			line-height: 0%;
+			opacity: 0;
+			height: 0px;
+			overflow: hidden;
+			padding: 0% 2%;
+			transition: all 0.5s;
+		}
+
+		input[name="accInput"]:checked~section {
+			/* display:block; */
+			opacity: 1;
+			line-height: 150%;
+			padding: 1% 2%;
+			height: auto;
+		}
+
+		/* Acc-Design mmmmmmmmmmmmmmmmmmmmmmmmmmm */
+		label[for^="checker"] {
+			cursor: pointer;
+		}
+
+		.accSegment {
+			border: 1px solid #aaa;
+			margin: 2px;
+		}
+
+		.accSegment h2 {
+			background: linen;
+		}
+
+		/* Drehpfeil mmmmmmmmmmmmmmmmmmmmmmmmmmmmmm*/
+		.accSegment>h2>label:before {
+			display: inline-block;
+			content: "\21d2";
+			padding: 0 10px;
+			transition: all 0.5s;
+		}
+
+		input[name="accInput"]:checked~h2>label:before {
+			transform: rotate(-270deg);
+			/* content:"\21d3"; */
+		}
+
+		/* label for close mmmmmmmmmmmmmmmmmmmmmmmmmmmmmm*/
+		.accSegment>h2>label[for="close"] {
+			opacity: 0;
+			transition: 2s;
+		}
+
+		.accSegment>h2>label[for="close"]:before {
+			content: "";
+		}
+
+		article>input[name="accInput"]:checked~h2>label[for="close"] {
+			opacity: 1;
+		}
+	</style>
+</head>
+
+<body>
+	<!-- see
+	- 235klickchecker.html
+  - 241click-radio-accordion-Mustafa-sz.html
+  -->
+	<header class="center">
+		<div class="clearfix"> <img id="img-logo" src="img/logo.png" alt="">
+			<nav id="nav-language">
+				<ul class="menu">
+					<li><a href="#" class="active-link">Deutsch</a></li>
+					<li><a href="#">English</a></li>
+				</ul>
+			</nav>
+			<form id="form-search" method="post">
+				<input type="text" name="search" placeholder="Suchen">
+			</form>
+			<nav id="nav-grundlegende-infos">
+				<ul class="menu">
+					<li><a href="#">Grundlegende Infos</a></li>
+					<li><a href="#">Über uns</a></li>
+					<li><a href="#">Häufige Fragen</a></li>
+					<li><a href="#">Daten ändern</a></li>
+					<li><a href="#">Media Center</a></li>
+				</ul>
+			</nav>
+		</div>
+	</header>
+	<header>
+		<nav id="nav-spender-werden">
+			<ul class="menu center">
+				<li><a href="#">Spender werden</a></li>
+				<li><a href="#">Geld spenden</a></li>
+				<li><a href="#">Weitere Hilfsmöglichkeiten</a></li>
+				<li><a href="#">Aktionskalender</a></li>
+			</ul>
+		</nav>
+	</header>
+	<main class="center">
+		<h1>Datenschutzbestimmungen</h1>
+		<h2>Hinweise zum Datenschutz bei der DKMS gemeinnützige GmbH</h2>
+		<input type="radio" id="close" name="accInput">
+		<article class="accSegment">
+			<input type="radio" id="checker1" name="accInput">
+			<h2><label for="checker1">1. Überblick</label></h2>
+			<section>
+				<p>1.1. Diese Datenschutzbestimmungen wurden entwickelt, um Ihnen einen Überblick darüber zu geben, wie Ihre Daten von uns erfasst, gespeichert, verarbeitet, weitergegeben oder übermittelt werden, wenn Sie unsere
+					Website besuchen oder die auf unserer Website angebotenen Dienste nutzen. <br><br>
+					1.2. Bei der Verarbeitung Ihrer personenbezogenen Daten beachten wir streng die datenschutzrechtlichen Vorgaben der Datenschutz-Grundverordnung (DSGVO) sowie des Bundesdatenschutzgesetzes (BDSG).<br><br>
+					1.3. Personenbezogene Daten sind alle Daten, die auf Sie persönlich beziehbar sind, z.B. IP-Adresse, Name, Adresse, E-Mail-Daten, Nutzerverhalten.<br><br>
+					1.4. Wir behalten uns vor, den Inhalt dieser Datenschutzbestimmungen anzupassen. Wir empfehlen Ihnen daher, die Datenschutzbestimmungen in regelmäßigen Abständen erneut zur Kenntnis zu nehmen. <br><br>
+					1.5. Verantwortlicher gem. Art. 4 Abs. 7 DSGVO ist die DKMS gemeinnützige GmbH (<a href="https://www.dkms.de/de/impressum" target="_blank">siehe Impressum</a>) .Unseren Datenschutzbeauftragten reichen Sie unter
+					<a href="mailto:datenschutz@dkms.de" rel="nofollow">datenschutz@dkms.de</a> oder unter unserer <a href="https://www.dkms.de/de/impressum" target="_blank">Postadresse</a> mit dem Zusatz „der
+					Datenschutzbeauftragte“.</p>
+			</section>
+		</article>
+		<article class="accSegment">
+			<input type="radio" id="checker2" name="accInput">
+			<h2><label for="checker2">2. Welche personenbezogenen Daten verarbeiten wir?</label></h2>
+			<section>
+				<p>Wir erfassen Daten von Ihnen, wenn Sie unsere Website besuchen oder unsere auf der Website angebotenen Dienste nutzen. Davon umfasst sind, je nach Nutzung unserer Website, die folgenden Informationen:<br><br>
+					2.1. <strong>Rein informatorische Nutzung</strong>: Sie können unsere Website besuchen, ohne Angaben zu Ihrer Person zu machen. Bei der bloß informatorischen Nutzung der Website, also wenn Sie weder über unsere
+					Homepage Geld spenden, ein Kontaktformular ausfüllen oder uns anderweitig Informationen übermitteln, erheben wir keine personenbezogenen Daten, mit Ausnahme der Daten, die Ihr Browser automatisch an unseren
+					Server übermittelt, um Ihnen den Besuch unserer Website zu ermöglichen. Wenn Sie unsere Website betrachten möchten, erheben wir die folgenden Daten, die für uns technisch erforderlich sind, um Ihnen unsere
+					Website anzuzeigen und die Stabilität und Sicherheit zu gewährleisten:<br><br>
+					• IP-Adresse,<br>
+					• Datum und Uhrzeit der Anfrage,<br>
+					• Zeitzonendifferenz zur Greenwich Mean Time (GMT),<br>
+					• Inhalt der Anforderung (konkrete Seite),<br>
+					• HTTP-Statuscode,<br>
+					• Website, von der die Anforderung kommt,<br>
+					• Browser,<br>
+					• Betriebssystem und dessen Oberfläche;<br>
+					• Sprache und Version der Browsersoftware.<br><br>
+					Diese Informationen beziehen sich auf das Computersystem des Rechners. Wir werten diese Daten (mit Ausnahme der IP-Nummer Ihres Rechners) allein für statistische Zwecke aus, um die Nachfrage der Webangebote zu
+					messen. Die Daten erfassen wir nur kumuliert für alle Nutzer der Website, so dass keine Möglichkeit besteht, diese Daten einer bestimmten Person zuzuordnen. Eine Zusammenführung dieser Daten mit anderen
+					Datenquellen wird nicht vorgenommen.<br><br>
+					2.2. Neben der rein informatorischen Nutzung unserer Website bieten wir verschiedene Dienste an (<strong>Geldspende, Bestellung Registrierungsset, Kontaktformular, WhatsApp-Newsletter</strong>), die Sie bei
+					Interesse nutzen können. Dazu müssen Sie in der Regel weitere personenbezogene Daten angeben, die wir zur Erbringung der jeweiligen Leistung benötigen.<br><br>
+					2.2.1. <strong>DKMS-Live-Chat:</strong> Für die Nutzung des DKMS-Chats ist die Angabe weiterer personenbezogener Daten nicht erforderlich. Die IP-Adresse wird im Einklang mit den gesetzlichen Vorgaben
+					anonymisiert. Auch der Chatverlauf wird anonymisiert gespeichert.<br><br>
+					2.2.2. <strong>Kontaktaufnahme per E-Mail oder Kontaktformular:</strong> Wenn Sie uns bei dem Besuch unserer Website per E-Mail oder über eines der bereitgestellten Kontaktformulare kontaktieren, werden
+					zusätzlich die von Ihnen mitgeteilten Daten verarbeitet (Ihre E-Mail-Adresse, ggf. Ihr Name und Ihre Telefonnummer) und von uns gespeichert, um Ihre Fragen zu beantworten. Die Daten der Nutzer können in einem
+					Customer-Relationship-Management-System (CRM-System) oder einem vergleichbaren System gespeichert werden.<br><br>
+					2.2.3. <strong>Tätigung einer Geldspende über unsere Website:</strong> Wenn Sie die auf unserer Website bestehende Möglichkeit zur Geldspende nutzen, werden zusätzlich die von Ihnen hierbei mitgeteilten Daten
+					von uns verarbeitet, die notwendig sind, um die angeforderte Transaktion durchzuführen. Dabei unterscheidet sich die Verarbeitung Ihrer personenbezogenen Daten nach der Wahl des gewünschten
+					Zahlungsmittels:<br><br>
+					• <strong>Zahlung per Kreditkarte:</strong> Bei Auswahl der Zahlungsmethode per Kreditkarte werden Ihr Name, Ihre Adresse sowie Ihre E-Mail-Adresse von uns verarbeitet, um die gewünschte Zahlungstransaktion
+					durchzuführen und Ihnen ggf. eine Spendenbescheinigung zu übersenden.<br><br>
+					• <strong>Zahlung per Bankeinzug:</strong> Soweit Sie die auf unserer Website zur Verfügung stehende Möglichkeit nutzen, die Geldspende per Bankeinzug zu tätigen, werden Ihr Name, Ihre Adresse, Ihre
+					E-Mail-Adresse sowie Ihre Kontodaten von uns verarbeitet, um die Zahlungstransaktion durchzuführen und Ihnen ggf. eine Spendenbescheinigung zu übersenden.<br><br>
+					• <strong>Zahlung per PayPal:</strong> Sollten Sie sich für eine Bezahlung mit dem Online-Zahlungsdienstleister PayPal entscheiden, werden Sie auf eine Website von PayPal weitergeleitet. PayPal ist ein Angebot
+					der PayPal (Europe) S.à.r.l. &amp; Cie. S.C.A., 22-24 Boulevard Royal, L-2449 Luxembourg. PayPal übernimmt dabei die Funktion eines Online-Zahlungsdienstleisters sowie eines Treuhänders und bietet Schutzdienste
+					an. Hierbei gelten grundsätzlich die Datenschutzbestimmungen von PayPal. Diese entnehmen Sie der Datenschutzerklärung von PayPal unter: <a href="https://www.paypal.com/webapps/mpp/ua/privacy-full?locale.x=de_DE" target="_blank"
+						rel="nofollow">https://www.paypal.com/webapps/mpp/ua/privacy-full?locale.x=de_DE</a>. Ihre bei Wahl dieser
+					Zahlungsmethode mitgeteilten personenbezogenen Daten werden nur dann von uns verarbeitet, soweit dies zur Zuordnung der geleisteten Zahlung erforderlich ist. Hierbei handelt es sich grundsätzlich um Ihren
+					Namen, Ihre E-Mail-Adresse und ggf. Ihre Adresse. Dies jedoch nur, soweit Sie im Rahmen des Zahlungsvorgangs auf der PayPal Website zugestimmt haben, dass Ihre Adresse und Ihr Name an uns weitergebenen wird, um
+					Ihre Spende zu bestätigen.<br><br>
+					• <strong>Zahlung per Überweisung:</strong> Sollten Sie sich für eine Bezahlung mittels Überweisung entscheiden, werden bei dem Besuch der Website über die bei dem rein informatorischen Besuch unserer Website
+					verarbeiteten Daten hinaus grundsätzlich keine weiteren personenbezogenen Daten verarbeitet.<br><br>
+					• <strong>Zahlung per SMS:</strong> Sollten Sie sich dazu entscheiden, eine Spende per SMS zu tätigen, wird lediglich Ihre Telefonnummer von uns verarbeitet.<br><br>
+					2.2.4. <strong>Bestellung Registrierungsset:</strong> Wenn Sie sich dafür entscheiden, beim Besuch unserer Website ein Set zur Registrierung als Stammzellspender zu bestellen, werden hierbei Ihr Name, Ihre
+					Adresse, Ihre E-Mailadresse sowie die Angabe zu Ihrer Abstammung und Ihre Telefonnummer, soweit Sie uns diese mitgeteilt haben, von uns verarbeitet.<br><br>
+					2.2.5. <strong>WhatsApp Newsletter:</strong> Sollten Sie sich dazu entscheiden, über den auf unserer Website zur Verfügung stehenden „Anmeldebutton“ unseren WhatsApp Newsletter zu abonnieren, werden allein
+					durch die Betätigung des Links hierbei keine über die in Ziff. 2.1. genannten Daten von uns verarbeitet.<br><br>
+					2.2.6. <strong>Links zu Websites von Drittanbietern:</strong><br>
+					Unsere Website enthält an verschiedenen Stellen Links zu Websites von Drittanbietern. Nach Auswahl des eingebundenen Links werden Sie auf die Website des jeweiligen Drittanbieters weitergeleitet. Im Rahmen der
+					Weiterleitung werden Nutzerinformationen an den jeweiligen Drittanbieter übertragen. Wenn Sie Informationen an oder über diese Seiten von Drittanbietern senden, empfehlen wir Ihnen die Datenschutzbestimmungen
+					dieser Seiten zu lesen, bevor Sie diesen weitere Informationen zukommen lassen, die Ihrer Person zugeordnet werden können. Die Informationen zum Umgang mit Ihren Daten während der Nutzung der Websites von
+					Drittanbietern entnehmen Sie bitte den jeweiligen Datenschutzbestimmungen der Drittanbieter. Wir sind für deren Betrieb einschließlich der Datenhandhabung nicht verantwortlich.</p>
+			</section>
+		</article>
+		<article class="accSegment">
+			<input type="radio" id="checker3" name="accInput">
+			<h2><label for="checker3">3. Zu welchem Zweck verarbeiten wir Ihre personenbezogenen Daten?</label></h2>
+			<section>
+				<p>3.1. Wir verarbeiten Ihre personenbezogenen Daten grundsätzlich nur, soweit dies zur Bereitstellung einer funktionsfähigen Website sowie unserer Inhalte und Leistungen erforderlich ist. Die Verarbeitung
+					personenbezogener Daten erfolgt regelmäßig nur, wenn diese durch gesetzliche Vorschriften gestattet ist oder die Einwilligung der betroffenen Person vorliegt.<br><br>
+					3.2. Bei einer <strong>rein informatorischen Nutzung</strong> unserer Website erheben wir nur diejenigen Daten, die für uns technisch erforderlich sind, um Ihnen unsere Website anzuzeigen und die Stabilität und
+					Sicherheit zu gewährleisten. Rechtsgrundlage der Verarbeitung ist Art. 6 Abs. 1 S. 1 lit. f DSGVO.<br><br>
+					3.3. Bei Ihrer <strong>Kontaktaufnahme</strong> mit uns per E-Mail oder über ein Kontaktformular werden Ihre personenbezogenen Daten lediglich zum Zwecke der Beantwortung Ihrer Anfrage genutzt. Rechtsgrundlage
+					der Verarbeitung ist Art. 6 Abs. 1 S. 1 lit. f DSGVO.<br><br>
+					3.4. Soweit Sie unsere Website nutzen, um <strong>Geld zu spenden</strong>, erfolgt die Verarbeitung Ihrer Daten lediglich in dem Umfang der für die Erfüllung des Spendenvertrages erforderlich ist.
+					Rechtsgrundlage der Verarbeitung Ihrer personenbezogenen Daten ist hierbei Art. 6 Abs. 1 S. 1 lit. b DSGVO.<br><br>
+					3.5. Soweit Sie über unsere Website die <strong>Übersendung eines Registrierungssets</strong> anfordern, werden Ihre diesbezüglich angegebenen Daten von uns dazu genutzt, Ihnen das Registrierungsset postalisch
+					zusenden zu können und den wichtigen Prozess der Registrierung in zeitlicher Hinsicht zu beschleunigen. Die Angabe zu Ihrer Abstammung wird lediglich dazu genutzt, um die Ihnen im Anschluss postalisch zu
+					übersendende Einwilligungserklärung mit den angegebenen Daten vorauszufüllen und so die Prozesse des Registrierungsvorgangs zu beschleunigen. Ihre E-Mail-Adresse verarbeiten wir hierbei nur zum Zwecke von
+					etwaig bestehenden Rückfragen und Informationen im Zusammenhang mit der Bestellung des Registrierungssets. Rechtsgrundlage der Verarbeitung ist die von Ihnen hierbei erteilte Einwilligung nach Art. 6 Abs. 1 S.
+					1 lit. a DSGVO.</p>
+			</section>
+		</article>
+		<label for="close"> ~ close ~</label>
+	</main>
+	<footer>
+		<nav id="nav-ueber-uns">
+			<div class="center clearfix">
+				<section>
+					<h2>Über uns</h2>
+					<nav>
+						<ul>
+							<li><a href="#">Über die DKMS</a></li>
+							<li><a href="#">Unsere Unterstützer</a></li>
+							<li><a href="#">Unsere Partner</a></li>
+							<li><a href="#">DKMS LIFE</a></li>
+							<li><a href="#">DKMS Nabelschnurblutbank</a></li>
+							<li><a href="#">Clinical Trials Unit</a></li>
+							<li><a href="#">DKMS Life Science Lab</a></li>
+						</ul>
+					</nav>
+				</section>
+				<section>
+					<h2>Werden Sie aktiv</h2>
+					<nav>
+						<ul>
+							<li><a href="#">Werden Sie Spender</a></li>
+							<li><a href="#">Spenden Sie Geld</a></li>
+							<li><a href="#">Weitere Möglichkeiten zu helfen</a></li>
+						</ul>
+					</nav>
+				</section>
+				<section>
+					<h2>Folgen Sie uns</h2>
+					<nav>
+						<ul>
+							<li><a href="#">Facebook</a></li>
+							<li><a href="#">Instagram</a></li>
+							<li><a href="#">Twitter</a></li>
+							<li><a href="#">Youtube</a></li>
+						</ul>
+					</nav>
+				</section>
+				<section>
+					<h2>Über Blutkrebs informieren</h2>
+					<nav>
+						<ul>
+							<li><a href="#">Grundlegende Informationen</a></li>
+							<li><a href="#">News und Geschichten</a></li>
+							<li><a href="#">DKMS TV</a></li>
+							<li><a href="#">Aktionskalender</a></li>
+						</ul>
+					</nav>
+				</section>
+				<section>
+					<h2>Presse</h2>
+					<nav>
+						<ul>
+							<li><a href="#">Media Center</a></li>
+							<li><a href="#">Insights Blog</a></li>
+						</ul>
+					</nav>
+				</section>
+				<section>
+					<h2>Downloads</h2>
+					<nav>
+						<ul>
+							<li><a href="#">Informationsmaterial</a></li>
+							<li><a href="#">Banner</a></li>
+							<li><a href="#">Logos</a></li>
+							<li><a href="#">Freianzeigen</a></li>
+						</ul>
+					</nav>
+				</section>
+				<section>
+					<h2>Helfen als</h2>
+					<nav>
+						<ul>
+							<li><a href="#">Unternehmen</a></li>
+							<li><a href="#">Schule</a></li>
+							<li><a href="#">Sportverein</a></li>
+							<li><a href="#">Arzt</a></li>
+							<li><a href="#">Student</a></li>
+						</ul>
+					</nav>
+				</section>
+				<section>
+					<h2>Online shoppen und Gutes tun.</h2>
+					<nav>
+						<ul>
+							<li><a href="#">Kaufen Sie jetzt in Ihrem Lieblingsshop ein!</a></li>
+							<li><a href="#">Mehr Infos dazu auf www.dkms.de/boost</a></li>
+						</ul>
+					</nav>
+				</section>
+				<section>
+					<h2>Nehmen Sie Kontakt auf</h2>
+					<nav>
+						<ul>
+							<li><a href="#">Weitere Kontakte</a></li>
+							<li><a href="#">Neue Adresse mitteilen</a></li>
+							<li><a href="#">Kontodaten ändern</a></li>
+							<li><a href="#">Jobs und Karriere</a></li>
+						</ul>
+					</nav>
+				</section>
+				<section>
+					<h2>Weitere Informationen</h2>
+					<nav>
+						<ul>
+							<li><a href="#">Häufige Fragen</a></li>
+							<li><a href="#">Patienten und Angehörige</a></li>
+							<li><a href="#">Spenderclub</a></li>
+							<li><a href="#">Informationsmaterial</a></li>
+						</ul>
+					</nav>
+				</section>
+				<section id="section-spendenkonto">
+					<h2>DKMS Spendenkonto</h2>
+					<p>IBAN:DE64641500200000255556<br>
+						BIC:SOLADES1TUB</p>
+				</section>
+				<section id="section-hauptkontakt">
+					<h2>Hauptkontakt</h2>
+					<p>Zentrale Tübingen<br>
+						Kressbach 1<br>
+						72072 Tübingen<br>
+						T 07071 943-0<br>
+						F 07071 943-1499</p>
+				</section>
+			</div>
+		</nav>
+		<nav id="nav-impressum">
+			<div class="center">
+				<ul class="menu">
+					<li><a href="impressum.html">Impressum</a></li>
+					<li><a href="datenschutz.html">Datenschutz</a></li>
+					<li><a href="#">Disclaimer</a></li>
+					<li><a href="#">DKMS USA</a></li>
+					<li><a href="#">DKMS UK</a></li>
+					<li><a href="#">DKMS Chile</a></li>
+					<li><a href="#">DKMS Polen</a></li>
+					<li><a href="#">DKMS-BMST Indien</a></li>
+				</ul>
+			</div>
+		</nav>
+	</footer>
+</body>
+
+</html>

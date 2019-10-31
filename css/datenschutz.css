@@ -1,0 +1,66 @@
+@charset "utf-8";
+
+/* adapted from 241click-radio-accordion-Mustafa-sz.html */
+/* Accordion - Funktionalität mmmmmmmmmmmmmmmmmmmm*/
+input[name="accInput"] {
+  display: none;
+}
+
+.accSegment>section {
+  /* display:none; */
+  line-height: 0%;
+  opacity: 0;
+  height: 0px;
+  overflow: hidden;
+  padding: 0% 2%;
+  transition: all 0.5s;
+}
+
+input[name="accInput"]:checked~section {
+  /* display:block; */
+  opacity: 1;
+  line-height: 150%;
+  padding: 1% 2%;
+  height: auto;
+}
+
+/* Acc-Design mmmmmmmmmmmmmmmmmmmmmmmmmmm */
+label[for^="checker"] {
+  cursor: pointer;
+}
+
+.accSegment {
+  border: 1px solid #aaa;
+  margin: 2px;
+}
+
+.accSegment h2 {
+  background: linen;
+}
+
+/* Drehpfeil mmmmmmmmmmmmmmmmmmmmmmmmmmmmmm*/
+.accSegment>h2>label:before {
+  display: inline-block;
+  content: "\21d2";
+  padding: 0 10px;
+  transition: all 0.5s;
+}
+
+input[name="accInput"]:checked~h2>label:before {
+  transform: rotate(-270deg);
+  /* content:"\21d3"; */
+}
+
+/* label for close mmmmmmmmmmmmmmmmmmmmmmmmmmmmmm*/
+.accSegment>h2>label[for="close"] {
+  opacity: 0;
+  transition: 2s;
+}
+
+.accSegment>h2>label[for="close"]:before {
+  content: "";
+}
+
+article>input[name="accInput"]:checked~h2>label[for="close"] {
+  opacity: 1;
+}

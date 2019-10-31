@@ -47,7 +47,7 @@ label[for^="checker"] {
 }
 
 input[name="accInput"]:checked~h2>label:before {
-  transform: rotate(-270deg);
+  transform: rotate(90deg);
   /* content:"\21d3"; */
 }
 

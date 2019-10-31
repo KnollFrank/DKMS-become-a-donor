@@ -36,14 +36,15 @@ label[for^="checker"] {
 /* Drehpfeil mmmmmmmmmmmmmmmmmmmmmmmmmmmmmm*/
 .accSegment>h2>label:before {
   display: inline-block;
-  content: "\21d2";
+  font-size: 3rem;
+  content: "\0203A";
   padding: 0 10px;
   transition: all 0.5s;
+  transform: translateY(0.3rem);
 }
 
 input[name="accInput"]:checked~h2>label:before {
-  transform: rotate(90deg);
-  /* content:"\21d3"; */
+  transform: translateY(0.3rem) rotate(90deg);
 }
 
 /* label for close mmmmmmmmmmmmmmmmmmmmmmmmmmmmmm*/

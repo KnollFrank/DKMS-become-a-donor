@@ -2,12 +2,17 @@ Anforderungen der technischen Umsetzung
 + Sprache: html5
 + Benutzung von semantisch korrekten (inhaltsspezifischen) Tags (html5-Tags, ul für ein Menu, Hauptüberschrift=h1, …)
 + externe CSS
-- Verwendung von css2 und css3-Befehlen (@font-face, filter, …)
+- Verwendung von css2 und css3-Befehlen:
+  + @font-face
+  - filter
+  - ...
 - responsive Webdesign
 - mobile first
-- Min. eine Schrift im Projektordner speichern und in das Projekt einbinden
++ Min. eine Schrift im Projektordner speichern und in das Projekt einbinden
 - Formular (z.B. Kontaktformular)
-- Pflichtangaben für Webseiten erstellen, richtig einbinden (Datenschutz, Impressum)
+- Pflichtangaben für Webseiten erstellen, richtig einbinden
+  - Datenschutz
+  + Impressum
 + Favicon
 - Grafiken in Photoshop für Web optimieren
 - mind. 1 Seitenelement frameworkbasierend bzw. JavaScript (Bildergalerie, Slider, …)

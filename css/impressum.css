@@ -1,0 +1,25 @@
+@charset "utf-8";
+
+h2 {
+  margin-bottom: 1rem;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+h3 {
+  font-size: .875rem;
+  font-weight: 700;
+}
+
+p {
+  font-size: .875rem;
+}
+
+main a {
+  color: #00a3e0;
+  font-weight: 700;
+}
+
+main {
+  margin-bottom: 2rem;
+}

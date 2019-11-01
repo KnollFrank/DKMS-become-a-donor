@@ -134,3 +134,8 @@ textarea {
 form ul li.required>label::after {
   content: '*';
 }
+
+form a {
+  color: black;
+  font-weight: 400;
+}

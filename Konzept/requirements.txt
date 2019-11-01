@@ -8,9 +8,9 @@ Anforderungen der technischen Umsetzung
   - ...
 - responsive Webdesign
   + <aside> "Mehr über die Registrierung" erscheint unterhalb der <section> "Überprüfen Sie die Voraussetzungen"
-  - "Über die Stammzellspende", "Periphere Stammzellspende" und "Knochenmarkspende" erscheinen untereinander
-  - "Spenden Sie Geld", "Weitersagen" und "Motivieren Sie andere" erscheinen untereinander
-  - im footer erscheinen "Über uns", "Werden Sie aktiv", "Folgen Sie uns", ... untereinander
+  + "Über die Stammzellspende", "Periphere Stammzellspende" und "Knochenmarkspende" erscheinen untereinander
+  + "Spenden Sie Geld", "Weitersagen" und "Motivieren Sie andere" erscheinen untereinander
+  + im footer erscheinen "Über uns", "Werden Sie aktiv", "Folgen Sie uns", ... untereinander
   - Burger-Menü
 - mobile first
 + Min. eine Schrift im Projektordner speichern und in das Projekt einbinden

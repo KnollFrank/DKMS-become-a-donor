@@ -93,14 +93,10 @@ form [type="text"], form [type="password"], form [type="email"], form [type="tel
   border: 1px solid #8a8a8a;
 }
 
-.padding-right {
-  padding-right: .9375rem;
+#li-firstname, #li-mobile {
+  padding-right: 1rem;
 }
 
-/*form #li-address {
-  float: left;
-  width: 100%;
-}*/
 form #li-address input {
   width: 100%;
 }

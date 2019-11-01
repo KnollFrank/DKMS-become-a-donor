@@ -73,11 +73,6 @@ form #salutation label {
   margin-right: .75rem;
 }
 
-form input {
-  display: block;
-  width: 100%;
-}
-
 form label {
   font-size: .875rem;
   font-weight: 400;
@@ -85,6 +80,8 @@ form label {
 }
 
 form [type="text"], form [type="password"], form [type="email"], form [type="tel"], form [type="number"], form textarea {
+  display: block;
+  width: 100%;
   border-radius: 3px;
   border-color: #d3d2ca;
   padding: 3px 3px 3px 10px;

@@ -49,7 +49,7 @@ form fieldset legend {
   color: #e2001a;
   font-weight: 700;
   font-size: 1.5rem;
-  margin-bottom: 0.5rem;
+  margin-bottom: 2rem;
 }
 
 form #salutation>* {
@@ -63,6 +63,10 @@ form #salutation ul li {
 form #li-firstname, #li-mobile, #li-lastname, #li-email {
   float: left;
   width: 50%;
+}
+
+form #li-firstname, form #li-address, form #li-mobile, form #li-message {
+  clear: left;
 }
 
 form #salutation label {

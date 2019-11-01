@@ -23,4 +23,4 @@ Anforderungen der technischen Umsetzung
 - auf den 4 gängigen Browsern fehlerfrei dargestellt
 - Suchmaschinenoptimierung (meta-Tags, robots.txt, sitemap.xml, keywords im Text verwenden)
 
-TODO: - Fehler im Formulat kontakt.html: die Überschrift <h1> ist ineinanderverschoben, falls sie umgebrochen wird.
+TODO: - Fehler im Formular kontakt.html: die Überschrift <h1> ist ineinanderverschoben, falls sie umgebrochen wird.

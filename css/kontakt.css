@@ -122,11 +122,10 @@ textarea {
   cursor: pointer;
   text-align: center;
   display: block;
-  margin: 0 auto;
   padding: 17px 43px;
   font-size: 1.125rem;
   border-radius: 5px;
-  margin: 1rem auto 3rem;
+  margin: 3rem auto 3rem;
   border-style: none;
   font-family: inherit;
 }

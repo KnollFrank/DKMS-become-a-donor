@@ -37,6 +37,10 @@ form ul {
   list-style-type: none;
 }
 
+form fieldset>ul>li {
+  margin-bottom: 20px;
+}
+
 form fieldset {
   border: 0;
 }
@@ -66,9 +70,32 @@ form #li-lastname, #li-email {
   width: 50%;
 }
 
-form label, form input {
+form #salutation label {
+  margin-right: .75rem;
+}
+
+form input {
   display: block;
   width: 100%;
+}
+
+form label {
+  font-size: .875rem;
+  font-weight: 400;
+  line-height: 1.8;
+}
+
+form [type="text"], form [type="password"], form [type="email"], form [type="tel"], form [type="number"], form textarea {
+  border-radius: 3px;
+  border-color: #d3d2ca;
+  padding: 3px 3px 3px 10px;
+  background: #ecece8;
+  line-height: 28px;
+  border: 1px solid #8a8a8a;
+}
+
+.padding-right {
+  padding-right: .9375rem;
 }
 
 /*form #li-address {

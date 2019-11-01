@@ -358,6 +358,7 @@ article {
 ul.menu {
   list-style-type: none;
   display: flex;
+  flex-wrap: wrap;
   justify-content: space-around;
 }
 
@@ -365,6 +366,7 @@ ul.menu li a {
   text-decoration: none;
 }
 
+/* END: menu */
 @media screen and (min-width: 870px) {
 
   /* START: dreispalter */
@@ -381,7 +383,6 @@ ul.menu li a {
   /* END: dreispalter */
 }
 
-/* END: menu */
 .active-link {
   font-weight: bold;
 }

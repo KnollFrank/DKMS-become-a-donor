@@ -130,3 +130,7 @@ textarea {
   border-style: none;
   font-family: inherit;
 }
+
+form ul li.required>label::after {
+  content: '*';
+}

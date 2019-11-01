@@ -72,7 +72,7 @@
 					Persönliche Daten
 				</legend>
 				<ul>
-					<li id="salutation" class="clearfix">
+					<li id="salutation" class="clearfix required">
 						<label for="salutation_Mr">Anrede</label>
 						<ul>
 							<li>
@@ -89,11 +89,11 @@
 							</li>
 						</ul>
 					</li>
-					<li id="li-firstname" class="clear-left padding-right">
+					<li id="li-firstname" class="clear-left padding-right required">
 						<label for="firstname">Vorname (Rufname)</label>
 						<input type="text" name="firstname" maxlength="50" required id="firstname">
 					</li>
-					<li id="li-lastname">
+					<li id="li-lastname" class="required">
 						<label for="lastname">Nachname</label>
 						<input type="text" name="lastname" maxlength="50" required id="lastname">
 					</li>
@@ -101,11 +101,11 @@
 						<label for="address">Adresse</label>
 						<input type="text" name="address" placeholder="Suchen Sie Ihre Adresse hier" maxlength="250" id="address">
 					</li>
-					<li id="li-mobile" class="clear-left padding-right">
+					<li id="li-mobile" class="clear-left padding-right required">
 						<label for="mobile">Telefonnummer (mobil bevorzugt)</label>
 						<input type="text" name="mobile" pattern="[\d\+\s]*" maxlength="20" minlength="7" required id="mobile" inputmode="numeric">
 					</li>
-					<li id="li-email">
+					<li id="li-email" class="required">
 						<label for="email">E-Mail-Adresse</label>
 						<input type="email" name="email" maxlength="50" required id="email">
 					</li>

@@ -12,7 +12,10 @@ Anforderungen der technischen Umsetzung
     + "Über die Stammzellspende", "Periphere Stammzellspende" und "Knochenmarkspende" erscheinen untereinander
     + "Spenden Sie Geld", "Weitersagen" und "Motivieren Sie andere" erscheinen untereinander
     + footer erscheinen "Über uns", "Werden Sie aktiv", "Folgen Sie uns", ... untereinander
-    - Burger-Menü
+    - Burger-Menü: siehe
+      - Aufgaben/_Aufgaben/_Ergebnisse/Aufgabe05Kulturarena-BurgerMenu
+      - 305seitlichesklick-nav-2dim-ssst.html
+      - Aufgaben/Pixelgreen
   - kontakt.html
 - mobile first
 + Min. eine Schrift im Projektordner speichern und in das Projekt einbinden

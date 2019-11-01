@@ -1,5 +1,10 @@
 @charset "utf-8";
 
+h1 {
+  margin-top: 4rem;
+  margin-bottom: 5rem;
+}
+
 /* adapted from 241click-radio-accordion-Mustafa-sz.html */
 /* Accordion - Funktionalität mmmmmmmmmmmmmmmmmmmm*/
 input[name="accInput"] {

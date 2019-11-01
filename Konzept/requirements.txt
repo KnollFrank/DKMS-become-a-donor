@@ -9,9 +9,10 @@ Anforderungen der technischen Umsetzung
 - responsive Webdesign
 - mobile first
 + Min. eine Schrift im Projektordner speichern und in das Projekt einbinden
-- Formular (z.B. Kontaktformular)
-- Pflichtangaben für Webseiten erstellen, richtig einbinden
-  - Datenschutz
+- Formular (z.B. Kontaktformular):
+  "Über die Stammzellspende" => WEITERLESEN => "Nachricht schreiben" => https://webforms.dkms.de/de/DE/contact/registration/
++ Pflichtangaben für Webseiten erstellen, richtig einbinden
+  + Datenschutz
   + Impressum
 + Favicon
 - Grafiken in Photoshop für Web optimieren

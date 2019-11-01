@@ -23,4 +23,4 @@ Anforderungen der technischen Umsetzung
 - auf den 4 gängigen Browsern fehlerfrei dargestellt
 - Suchmaschinenoptimierung (meta-Tags, robots.txt, sitemap.xml, keywords im Text verwenden)
 
-TODO:
+TODO: - Formular umsetzen, siehe Zeile 12/13

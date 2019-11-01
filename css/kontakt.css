@@ -60,12 +60,7 @@ form #salutation ul li {
   display: inline-block;
 }
 
-form #li-firstname, #li-mobile {
-  float: left;
-  width: 50%;
-}
-
-form #li-lastname, #li-email {
+form #li-firstname, #li-mobile, #li-lastname, #li-email {
   float: left;
   width: 50%;
 }

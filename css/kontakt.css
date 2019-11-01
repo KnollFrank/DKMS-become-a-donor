@@ -17,16 +17,16 @@ main {
   margin-bottom: 2rem;
 }
 
+form fieldset {
+  border: 0;
+}
+
 form ul {
   list-style-type: none;
 }
 
 form fieldset>ul>li {
   margin-bottom: 20px;
-}
-
-form fieldset {
-  border: 0;
 }
 
 form fieldset legend {
@@ -36,33 +36,17 @@ form fieldset legend {
   margin-bottom: 2rem;
 }
 
-form #salutation>* {
-  float: left;
-}
-
-form #salutation ul li {
-  display: inline-block;
-}
-
-form #li-firstname, #li-mobile, #li-lastname, #li-email {
-  float: left;
-  width: 50%;
-}
-
-form #li-firstname, form #li-address, form #li-mobile, form #li-message {
-  clear: left;
-}
-
-form #salutation label {
-  margin-right: .75rem;
-}
-
 form label {
   font-size: .875rem;
   font-weight: 400;
   line-height: 1.8;
 }
 
+form ul li.required>label::after {
+  content: '*';
+}
+
+/* every input except [type="radio"] */
 form [type="text"], form [type="password"], form [type="email"], form [type="tel"], form [type="number"], form textarea {
   display: block;
   width: 100%;
@@ -74,19 +58,32 @@ form [type="text"], form [type="password"], form [type="email"], form [type="tel
   border: 1px solid #8a8a8a;
 }
 
-#li-firstname, #li-mobile {
+form #salutation>* {
+  float: left;
+}
+
+form #salutation ul li {
+  display: inline-block;
+}
+
+form #salutation label {
+  margin-right: .75rem;
+}
+
+form #li-firstname, form #li-lastname, form #li-mobile, form #li-email {
+  float: left;
+  width: 50%;
+}
+
+form #li-firstname, form #li-address, form #li-mobile, form #li-message {
+  clear: left;
+}
+
+form #li-firstname, form #li-mobile {
   padding-right: 1rem;
 }
 
-form #li-address input {
-  width: 100%;
-}
-
-textarea {
-  width: 100%;
-}
-
-#submit {
+form #submit {
   background: #ffb500;
   width: auto;
   text-transform: uppercase;
@@ -100,10 +97,6 @@ textarea {
   margin: 3rem auto 3rem;
   border-style: none;
   font-family: inherit;
-}
-
-form ul li.required>label::after {
-  content: '*';
 }
 
 form a {

@@ -64,7 +64,7 @@
 			</ul>
 		</nav>
 	</header>
-	<main class="center">
+	<main>
 		<h1>Schicken Sie uns eine Nachricht</h1>
 		<form action="" method="post">
 			<fieldset>
@@ -72,7 +72,7 @@
 					Persönliche Daten
 				</legend>
 				<ul>
-					<li>
+					<li id="salutation" class="clearfix">
 						<label for="salutation_Mr">Anrede</label>
 						<ul>
 							<li>
@@ -89,27 +89,27 @@
 							</li>
 						</ul>
 					</li>
-					<li>
+					<li id="li-firstname" class="clear-left">
 						<label for="firstname">Vorname (Rufname)</label>
 						<input type="text" name="firstname" maxlength="50" required id="firstname">
 					</li>
-					<li>
+					<li id="li-lastname">
 						<label for="lastname">Nachname</label>
 						<input type="text" name="lastname" maxlength="50" required id="lastname">
 					</li>
-					<li>
+					<li id="li-address" class="clear-left">
 						<label for="address">Adresse</label>
 						<input type="text" name="address" placeholder="Suchen Sie Ihre Adresse hier" maxlength="250" id="address">
 					</li>
-					<li>
+					<li id="li-mobile" class="clear-left">
 						<label for="mobile">Telefonnummer (mobil bevorzugt)</label>
 						<input type="text" name="mobile" pattern="[\d\+\s]*" maxlength="20" minlength="7" required id="mobile" inputmode="numeric">
 					</li>
-					<li>
+					<li id="li-email">
 						<label for="email">E-Mail-Adresse</label>
 						<input type="email" name="email" maxlength="50" required id="email">
 					</li>
-					<li>
+					<li class="clear-left">
 						<label for="message">Nachricht</label>
 						<textarea name="message" cols="40" rows="10" placeholder="Bitte geben Sie hier Ihre Nachricht oder Ihr Anliegen an." id="message"></textarea>
 					</li>

@@ -2,11 +2,16 @@ Anforderungen der technischen Umsetzung
 + Sprache: html5
 + Benutzung von semantisch korrekten (inhaltsspezifischen) Tags (html5-Tags, ul für ein Menu, Hauptüberschrift=h1, …)
 + externe CSS
-- Verwendung von css2 und css3-Befehlen:
+(+) Verwendung von css2 und css3-Befehlen:
   + @font-face
   - filter
   - ...
 - responsive Webdesign
+  + <aside> "Mehr über die Registrierung" erscheint unterhalb der <section> "Überprüfen Sie die Voraussetzungen"
+  - "Über die Stammzellspende", "Periphere Stammzellspende" und "Knochenmarkspende" erscheinen untereinander
+  - "Spenden Sie Geld", "Weitersagen" und "Motivieren Sie andere" erscheinen untereinander
+  - im footer erscheinen "Über uns", "Werden Sie aktiv", "Folgen Sie uns", ... untereinander
+  - Burger-Menü
 - mobile first
 + Min. eine Schrift im Projektordner speichern und in das Projekt einbinden
 + Formular (z.B. Kontaktformular):
@@ -16,11 +21,17 @@ Anforderungen der technischen Umsetzung
   + Impressum
 + Favicon
 - Grafiken in Photoshop für Web optimieren
-- mind. 1 Seitenelement frameworkbasierend bzw. JavaScript (Bildergalerie, Slider, …)
+(+) mind. 1 Seitenelement frameworkbasierend bzw. JavaScript (Bildergalerie, Slider, …), z.B.:
+  + WEITERLESEN-Links mit javascript umsetzen
   - baue die Bildergalerie von https://www.dkms.de/de ein.
   - lasse die Texte und Pfeile in other-ways-to-help z.B. beim Scrollen von links und rechts einfliegen
+  - in #become-a-donor einige der Schritte 0-5 ausprogrammieren mit javascript.
 + Download einer pdf-Datei ermöglichen
 - auf den 4 gängigen Browsern fehlerfrei dargestellt
+  - Firefox
+  - Chrome
+  - Internet Explorer
+  - Edge?
 - Suchmaschinenoptimierung (meta-Tags, robots.txt, sitemap.xml, keywords im Text verwenden)
 
 TODO: - Fehler im Formular kontakt.html: die Überschrift <h1> ist ineinanderverschoben, falls sie umgebrochen wird.

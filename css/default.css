@@ -167,14 +167,16 @@ h1 {
   padding-bottom: 1rem;
 }
 
-#become-a-donor aside {
-  float: left;
-  width: 23%;
-}
+@media screen and (min-width: 870px) {
+  #become-a-donor>section {
+    float: right;
+    width: 75%;
+  }
 
-#become-a-donor section {
-  float: left;
-  width: 75%;
+  #become-a-donor>aside {
+    float: left;
+    width: 23%;
+  }
 }
 
 #become-a-donor section h3 {

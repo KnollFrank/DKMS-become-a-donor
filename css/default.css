@@ -424,7 +424,7 @@ ul.menu li a {
     width: 280px;
     height: 100vh;
     background: white;
-    overflow-y: scroll;
+    /*overflow-y: scroll;*/
     z-index: 100;
     transition: 0.3s;
   }
@@ -434,11 +434,20 @@ ul.menu li a {
   }
 
   #topnav p {
-    position: fixed;
-    top: 20px;
-    right: 20px;
-    font-size: 4rem;
-    color: red;
+    position: absolute;
+    top: 0px;
+    left: -65px;
+    width: 35px;
+    line-height: 40px;
+    font-size: 1.9rem;
+    background: orange;
+    text-align: center;
+    border-top: 1px solid grey;
+  }
+
+  #topnav label {
+    display: block;
+    transition: 1s 1s;
   }
 
   #topnav ul {

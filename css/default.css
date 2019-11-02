@@ -462,9 +462,10 @@ ul.menu li a {
     list-style: none;
   }
 
-  /*#nav-language2 {
+  #nav-language2 a {
     line-height: 34px;
-  }*/
+  }
+
   #nav-language2.menu {
     padding-right: 35px;
     justify-content: flex-end;

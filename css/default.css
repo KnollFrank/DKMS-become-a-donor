@@ -420,11 +420,10 @@ ul.menu li a {
     display: block;
     position: fixed;
     top: 0;
-    right: -300px;
+    right: -280px;
     width: 280px;
     height: 100vh;
     background: white;
-    /*overflow-y: scroll;*/
     z-index: 100;
     transition: 0.3s;
   }
@@ -436,13 +435,13 @@ ul.menu li a {
   #topnav p {
     position: absolute;
     top: 0px;
-    left: -65px;
-    width: 35px;
+    left: -57px;
     line-height: 40px;
-    font-size: 1.9rem;
-    background: orange;
+    font-size: 4rem;
+    background: white;
     text-align: center;
-    border-top: 1px solid grey;
+    color: red;
+    width: 57px;
   }
 
   #topnav label {

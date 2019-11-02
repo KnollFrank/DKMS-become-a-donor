@@ -44,7 +44,7 @@ main h1 {
 }
 
 #nav-language,
-#form-search,
+.form-search,
 #nav-grundlegende-infos {
   float: right;
   width: auto;
@@ -148,7 +148,7 @@ main h1 {
   color: white;
 }
 
-#form-search input {
+.form-search input {
   background: url('../img/bg-search-form-input.png') no-repeat right center;
   padding: 3px 0 3px 10px;
   height: 34px;
@@ -448,7 +448,6 @@ ul.menu li a {
     line-height: 50px;
     padding-left: 20px;
     font-size: .75rem;
-    font-weight: 700;
   }
 
   #topnav a.akt {
@@ -463,14 +462,31 @@ ul.menu li a {
     list-style: none;
   }
 
+  /*#nav-language2 {
+    line-height: 34px;
+  }*/
+  #nav-language2.menu {
+    padding-right: 35px;
+    justify-content: flex-end;
+  }
+
   #nav-grundlegende-infos2 li a,
   #nav-language2 li a {
     color: black;
     text-transform: uppercase;
   }
 
+  .form-search {
+    float: none;
+    margin: 0 35px 20px;
+  }
+
   #nav-spender-werden2 {
     background-color: #e2001a;
+  }
+
+  #nav-grundlegende-infos2 li a, #nav-spender-werden2 li a {
+    font-weight: 700;
   }
 
   #nav-spender-werden2 li a {

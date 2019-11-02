@@ -404,6 +404,10 @@ ul.menu li a {
   clear: both;
 }
 
+#topnav, #navchecker {
+  display: none;
+}
+
 /* mobile --------------------------------------*/
 @media screen and (max-width:812px) {
 
@@ -413,6 +417,7 @@ ul.menu li a {
   }
 
   #topnav {
+    display: block;
     position: fixed;
     top: 0;
     right: -300px;

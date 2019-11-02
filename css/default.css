@@ -437,7 +437,7 @@ ul.menu li a {
     top: 0px;
     left: -57px;
     line-height: 40px;
-    font-size: 4rem;
+    font-size: 3.5rem;
     background: white;
     text-align: center;
     color: red;
@@ -446,7 +446,11 @@ ul.menu li a {
 
   #topnav label {
     display: block;
-    transition: 1s 1s;
+    transition: 0.3s;
+  }
+
+  #navchecker:checked~#topnav label {
+    transform: rotate(45deg);
   }
 
   #topnav ul {

@@ -16,6 +16,7 @@ Anforderungen der technischen Umsetzung
       - Aufgaben/_Aufgaben/_Ergebnisse/Aufgabe05Kulturarena-BurgerMenu
       - 305seitlichesklick-nav-2dim-ssst.html
       - Aufgaben/Pixelgreen
+      - lecture/303click-nav-zipfel.html für das aufklappbare +-Zeichen, das sich beim Aufklappen mit nach links bewegt.
   - kontakt.html
 - mobile first
 + Min. eine Schrift im Projektordner speichern und in das Projekt einbinden

@@ -434,7 +434,7 @@ ul.menu li a {
 
   #topnav p {
     position: absolute;
-    top: 0px;
+    top: 30px;
     left: -57px;
     line-height: 40px;
     font-size: 3.5rem;
@@ -485,6 +485,7 @@ ul.menu li a {
 
   #nav-language2.menu {
     padding-right: 35px;
+    padding-top: 30px;
     justify-content: flex-end;
   }
 
@@ -518,26 +519,6 @@ ul.menu li a {
 
   #nav-grundlegende-infos2 li a {
     border-bottom: 1px solid #eaeaea;
-  }
-
-  /* Zwischenschicht zum schließen der Navi */
-  #navcloser label {
-    background: rgba(0, 0, 0, 0.5);
-    position: fixed;
-    top: 0;
-    left: 0;
-    display: block;
-    width: 100%;
-    height: 100vh;
-    opacity: 0;
-    visibility: hidden;
-    transition: 0.5s;
-    z-index: 99;
-  }
-
-  #navchecker:checked~#navcloser label {
-    visibility: visible;
-    opacity: 1;
   }
 
   #nav-language, #nav-grundlegende-infos, #nav-spender-werden, #id-form-search {

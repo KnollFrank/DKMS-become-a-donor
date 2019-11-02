@@ -456,13 +456,8 @@ ul.menu li a {
     border-bottom: 1px solid #fff;
   }
 
-  #langnav li {
-    float: left;
-  }
-
-  #langnav li a {
-    padding-top: 15px;
-    border: none;
+  #langnav ul {
+    list-style: none;
   }
 
   /* Zwischenschicht zum schließen der Navi */

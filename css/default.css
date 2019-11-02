@@ -414,7 +414,7 @@ ul.menu li a {
   #topnav {
     position: fixed;
     top: 0;
-    left: -300px;
+    right: -300px;
     width: 300px;
     height: 100vh;
     background: #204e59;
@@ -424,7 +424,7 @@ ul.menu li a {
   }
 
   #navchecker:checked~#topnav {
-    left: 0;
+    right: 0;
   }
 
   #topnav p {
@@ -432,7 +432,7 @@ ul.menu li a {
     top: 20px;
     right: 20px;
     font-size: 2.5rem;
-    color: #fff;
+    color: red;
   }
 
   #topnav ul {

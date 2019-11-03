@@ -11,7 +11,7 @@ input[name="accInput"] {
   display: none;
 }
 
-.accSegment>section {
+.accSegment>div.section-without-heading {
   /* display:none; */
   line-height: 0%;
   opacity: 0;
@@ -21,7 +21,7 @@ input[name="accInput"] {
   transition: all 0.5s;
 }
 
-input[name="accInput"]:checked~section {
+input[name="accInput"]:checked~div.section-without-heading {
   /* display:block; */
   opacity: 1;
   line-height: 150%;

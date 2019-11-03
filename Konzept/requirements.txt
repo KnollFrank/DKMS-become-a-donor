@@ -40,5 +40,6 @@ Anforderungen der technischen Umsetzung
 + Suchmaschinenoptimierung (meta-Tags, robots.txt, sitemap.xml, keywords im Text verwenden)
   (see lecture/118SEO.html)
 + FK: HTML-Seiten validieren, z.B. mit https://validator.w3.org/
+- Konzept.docx
 
 TODO: - Fehler im Formular kontakt.html: die Überschrift <h1> ist ineinanderverschoben, falls sie umgebrochen wird.

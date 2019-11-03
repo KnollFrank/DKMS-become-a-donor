@@ -6,8 +6,8 @@ Anforderungen der technischen Umsetzung
   + @font-face
   - filter
   - ...
-- responsive Webdesign
-  - index.html:
++ responsive Webdesign
+  + index.html:
     + <aside> "Mehr über die Registrierung" erscheint unterhalb der <section> "Überprüfen Sie die Voraussetzungen"
     + "Über die Stammzellspende", "Periphere Stammzellspende" und "Knochenmarkspende" erscheinen untereinander
     + "Spenden Sie Geld", "Weitersagen" und "Motivieren Sie andere" erscheinen untereinander
@@ -16,7 +16,7 @@ Anforderungen der technischen Umsetzung
       - Aufgaben/_Aufgaben/_Ergebnisse/Aufgabe05Kulturarena-BurgerMenu
       - 305seitlichesklick-nav-2dim-ssst.html
       - Aufgaben/Pixelgreen
-  - kontakt.html
+  + kontakt.html
 - mobile first
 + Min. eine Schrift im Projektordner speichern und in das Projekt einbinden
 + Formular (z.B. Kontaktformular):

@@ -83,6 +83,17 @@ form #li-firstname, form #li-mobile {
   padding-right: 1rem;
 }
 
+/* mobile --------------------------------------*/
+@media screen and (max-width: 869px) {
+  form #li-firstname, form #li-lastname, form #li-mobile, form #li-email {
+    width: 100%;
+  }
+
+  form #li-firstname, form #li-mobile {
+    padding-right: 0;
+  }
+}
+
 form #submit {
   background: #ffb500;
   width: auto;

@@ -409,7 +409,7 @@ ul.menu li a {
 }
 
 /* mobile --------------------------------------*/
-@media screen and (max-width:812px) {
+@media screen and (max-width: 869px) {
 
   /* BEGIN: navi */
   #navchecker {

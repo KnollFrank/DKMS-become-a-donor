@@ -6,7 +6,7 @@ Anforderungen der technischen Umsetzung
   + @font-face
   - filter
   - ...
-+ responsive Webdesign
+- responsive Webdesign
   + index.html:
     + <aside> "Mehr über die Registrierung" erscheint unterhalb der <section> "Überprüfen Sie die Voraussetzungen"
     + "Über die Stammzellspende", "Periphere Stammzellspende" und "Knochenmarkspende" erscheinen untereinander
@@ -17,6 +17,7 @@ Anforderungen der technischen Umsetzung
       - 305seitlichesklick-nav-2dim-ssst.html
       - Aufgaben/Pixelgreen
   + kontakt.html
+  - impressum.html
 - mobile first
 + Min. eine Schrift im Projektordner speichern und in das Projekt einbinden
 + Formular (z.B. Kontaktformular):
@@ -41,5 +42,6 @@ Anforderungen der technischen Umsetzung
   (see lecture/118SEO.html)
 + FK: HTML-Seiten validieren, z.B. mit https://validator.w3.org/
 - Konzept.docx
+- "cookies akzeptieren" dazufügen
 
 TODO: - Fehler im Formular kontakt.html: die Überschrift <h1> ist ineinanderverschoben, falls sie umgebrochen wird.

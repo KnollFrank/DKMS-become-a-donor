@@ -1,6 +1,8 @@
 @charset "utf-8";
 
-/* red: #e2001a */
+/*  red: #e2001a
+   blue: #00a3e0
+*/
 @font-face {
   font-family: "DKMS-Brushed";
   src: url(../fonts/DKMS-Brushed.eot);

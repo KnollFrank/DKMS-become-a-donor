@@ -37,7 +37,8 @@ Anforderungen der technischen Umsetzung
   - Chrome
   - Internet Explorer
   - Edge?
-- Suchmaschinenoptimierung (meta-Tags, robots.txt, sitemap.xml, keywords im Text verwenden)
++ Suchmaschinenoptimierung (meta-Tags, robots.txt, sitemap.xml, keywords im Text verwenden)
+- FK: HTML-Seiten validieren.
 
 TODO: - Fehler im Formular kontakt.html: die Überschrift <h1> ist ineinanderverschoben, falls sie umgebrochen wird.
       - NEXT-TODO: das Kontaktformular für mobile Darstellung optimieren (Zeile 19)

@@ -38,7 +38,8 @@ Anforderungen der technischen Umsetzung
   - Internet Explorer
   - Edge?
 + Suchmaschinenoptimierung (meta-Tags, robots.txt, sitemap.xml, keywords im Text verwenden)
-- FK: HTML-Seiten validieren.
+  (see lecture/118SEO.html)
+- FK: HTML-Seiten validieren, z.B. mit https://validator.w3.org/
 
 TODO: - Fehler im Formular kontakt.html: die Überschrift <h1> ist ineinanderverschoben, falls sie umgebrochen wird.
       - NEXT-TODO: das Kontaktformular für mobile Darstellung optimieren (Zeile 19)

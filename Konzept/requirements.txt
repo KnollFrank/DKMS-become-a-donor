@@ -45,3 +45,4 @@ Anforderungen der technischen Umsetzung
 - "cookies akzeptieren" dazufügen
 
 TODO: - Fehler im Formular kontakt.html: die Überschrift <h1> ist ineinanderverschoben, falls sie umgebrochen wird.
+      - NEXT-TODO: "Browser testen", Zeile 36-40

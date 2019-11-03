@@ -225,7 +225,7 @@ h1 {
   margin-bottom: 2rem;
 }
 
-article {
+article, .article-without-heading {
   padding-top: 2rem;
 }
 

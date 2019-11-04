@@ -321,11 +321,6 @@ ul.menu li a {
 	margin-left: auto;
 	margin-right: auto;
 }
-@media screen and (max-width: 869px) {
-	.center {
-		max-width: 25rem;
-	}
-}
 .clearfix:after {
 	content: "";
 	display: block;

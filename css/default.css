@@ -317,9 +317,14 @@ ul.menu li a {
 	font-weight: bold;
 }
 .center {
-	max-width: 68.556rem;
+	max-width: 65rem;
 	margin-left: auto;
 	margin-right: auto;
+}
+@media screen and (max-width: 869px) {
+	.center {
+		max-width: 25rem;
+	}
 }
 .clearfix:after {
 	content: "";

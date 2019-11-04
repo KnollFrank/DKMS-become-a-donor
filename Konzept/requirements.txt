@@ -6,7 +6,7 @@ Anforderungen der technischen Umsetzung
   + @font-face
   - filter
   - ...
-- responsive Webdesign
++ responsive Webdesign
   + index.html:
     + <aside> "Mehr über die Registrierung" erscheint unterhalb der <section> "Überprüfen Sie die Voraussetzungen"
     + "Über die Stammzellspende", "Periphere Stammzellspende" und "Knochenmarkspende" erscheinen untereinander
@@ -28,7 +28,7 @@ Anforderungen der technischen Umsetzung
   + Impressum
 + Favicon
 - Grafiken in Photoshop für Web optimieren (z.B. HTML <picture> Tag verwenden: https://www.w3schools.com/tags/tag_picture.asp)
-(+) mind. 1 Seitenelement frameworkbasierend bzw. JavaScript (Bildergalerie, Slider, …), z.B.:
+- mind. 1 Seitenelement frameworkbasierend bzw. JavaScript (Bildergalerie, Slider, …), z.B.:
   + WEITERLESEN-Links mit javascript umsetzen
   - baue die Bildergalerie von https://www.dkms.de/de ein.
   - lasse die Texte und Pfeile in other-ways-to-help z.B. beim Scrollen von links und rechts einfliegen
@@ -41,7 +41,7 @@ Anforderungen der technischen Umsetzung
   - MicrosoftEdge
 + Suchmaschinenoptimierung (meta-Tags, robots.txt, sitemap.xml, keywords im Text verwenden)
   (see lecture/118SEO.html)
-+ FK: HTML-Seiten validieren, z.B. mit https://validator.w3.org/
++ HTML-Seiten validieren, z.B. mit https://validator.w3.org/
 - Konzept.docx
 - "cookies akzeptieren" dazufügen
 

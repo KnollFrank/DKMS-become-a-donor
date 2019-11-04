@@ -27,7 +27,7 @@ Anforderungen der technischen Umsetzung
   + Datenschutz
   + Impressum
 + Favicon
-- Grafiken in Photoshop für Web optimieren (z.B. HTML <picture> Tag verwenden: https://www.w3schools.com/tags/tag_picture.asp):
++ Grafiken in Photoshop für Web optimieren (z.B. HTML <picture> Tag verwenden: https://www.w3schools.com/tags/tag_picture.asp):
   - https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images
   - https://developers.google.com/web/fundamentals/design-and-ux/responsive/images?hl=de
   - https://entwickler.de/online/web/5-tipps-responsive-images-html-173375.html

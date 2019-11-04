@@ -17,7 +17,7 @@ Anforderungen der technischen Umsetzung
       - 305seitlichesklick-nav-2dim-ssst.html
       - Aufgaben/Pixelgreen
   + kontakt.html
-  - impressum.html
+  + impressum.html
 - mobile first: css für mobile Ansicht ist der Default, css für Desktop dann in einem media-Query unterbringen.
 + Min. eine Schrift im Projektordner speichern und in das Projekt einbinden
 + Formular (z.B. Kontaktformular): (vorführen, nicht im Konzept beschreiben)
@@ -34,7 +34,7 @@ Anforderungen der technischen Umsetzung
   - lasse die Texte und Pfeile in other-ways-to-help z.B. beim Scrollen von links und rechts einfliegen
   - in #become-a-donor einige der Schritte 0-5 ausprogrammieren mit javascript.
 + Download einer pdf-Datei ermöglichen (vorführen, nicht im Konzept beschreiben)
-- auf den 4 gängigen Browsern fehlerfrei dargestellt
++ auf den 4 gängigen Browsern fehlerfrei dargestellt
   - Mozilla Firefox
   - Google Chrome
   - Internet Explorer

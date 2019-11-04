@@ -20,8 +20,9 @@ Anforderungen der technischen Umsetzung
   - impressum.html
 - mobile first: css für mobile Ansicht ist der Default, css für Desktop dann in einem media-Query unterbringen.
 + Min. eine Schrift im Projektordner speichern und in das Projekt einbinden
-+ Formular (z.B. Kontaktformular):
++ Formular (z.B. Kontaktformular): (vorführen, nicht im Konzept beschreiben)
   "Über die Stammzellspende" => WEITERLESEN => "Nachricht schreiben" => https://webforms.dkms.de/de/DE/contact/registration/
+  + responsives Formular
 + Pflichtangaben für Webseiten erstellen, richtig einbinden
   + Datenschutz
   + Impressum
@@ -32,7 +33,7 @@ Anforderungen der technischen Umsetzung
   - baue die Bildergalerie von https://www.dkms.de/de ein.
   - lasse die Texte und Pfeile in other-ways-to-help z.B. beim Scrollen von links und rechts einfliegen
   - in #become-a-donor einige der Schritte 0-5 ausprogrammieren mit javascript.
-+ Download einer pdf-Datei ermöglichen
++ Download einer pdf-Datei ermöglichen (vorführen, nicht im Konzept beschreiben)
 - auf den 4 gängigen Browsern fehlerfrei dargestellt
   - Mozilla Firefox
   - Google Chrome
@@ -46,7 +47,5 @@ Anforderungen der technischen Umsetzung
 
 Fragen: - Sind bei der HTML-Validierung Warnungen ok? fehlende alt-Attribute in img-Tags sind nicht ok, andere Warnungen schon.
 	    - "mind. 1 Seitenelement frameworkbasierend bzw. JavaScript": Ist das schon erfüllt, falls man eigenen, sehr einfachen Javascript-Code auf der Seite hat? Lieber noch ein Framework einbinden, Krimskrams einbauen.
-	    - "Download einer pdf-Datei ermöglichen": Wie findest Du den PDF-Donwload-Link oder das Kontaktformular der Seite? Im Konzept beschreiben oder einfach Live vorführen? einfach vorführen, responsive.
-		- Fehler im Formular kontakt.html: die Überschrift <h1> ist ineinanderverschoben, falls sie umgebrochen wird.
 	  
 NEXT-TODO: "Browser testen", Zeile 36-40

@@ -27,7 +27,13 @@ Anforderungen der technischen Umsetzung
   + Datenschutz
   + Impressum
 + Favicon
-- Grafiken in Photoshop für Web optimieren (z.B. HTML <picture> Tag verwenden: https://www.w3schools.com/tags/tag_picture.asp)
+- Grafiken in Photoshop für Web optimieren (z.B. HTML <picture> Tag verwenden: https://www.w3schools.com/tags/tag_picture.asp):
+  - https://developer.mozilla.org/en-US/docs/Learn/HTML/Multimedia_and_embedding/Responsive_images
+  - https://developers.google.com/web/fundamentals/design-and-ux/responsive/images?hl=de
+  - https://entwickler.de/online/web/5-tipps-responsive-images-html-173375.html
+  - https://www.w3schools.com/howto/howto_css_image_responsive.asp
+  - https://www.w3schools.com/css/css_rwd_images.asp
+  - https://css-tricks.com/planning-for-responsive-images/
 - mind. 1 Seitenelement frameworkbasierend bzw. JavaScript (Bildergalerie, Slider, …), z.B.:
   + WEITERLESEN-Links mit javascript umsetzen
   - baue die Bildergalerie von https://www.dkms.de/de ein.

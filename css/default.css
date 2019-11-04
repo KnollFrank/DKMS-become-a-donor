@@ -26,6 +26,9 @@ html, body {
 body > header {
 	padding-top: 1.5rem;
 }
+main {
+	display: block; /* for IE, see https://weblog.west-wind.com/posts/2015/jan/12/main-html5-tag-not-working-in-internet-explorer-91011 */
+}
 main h1 {
 	font-family: "DKMS-Brushed", Arial, Helvetica, "Nimbus Sans L", sans-serif;
 	font-weight: 400;

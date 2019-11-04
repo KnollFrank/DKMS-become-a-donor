@@ -1,67 +1,56 @@
 @charset "utf-8";
-
 h1 {
-  margin-top: 4rem;
-  margin-bottom: 5rem;
+	margin-top: 4rem;
+	margin-bottom: 5rem;
 }
-
 /* adapted from 241click-radio-accordion-Mustafa-sz.html */
 /* Accordion - Funktionalität mmmmmmmmmmmmmmmmmmmm*/
 input[name="accInput"] {
-  display: none;
+	display: none;
 }
-
-.accSegment>div.section-without-heading {
-  /* display:none; */
-  line-height: 0%;
-  opacity: 0;
-  height: 0px;
-  overflow: hidden;
-  padding: 0% 2%;
-  transition: all 0.5s;
+.accSegment > div.section-without-heading {
+	/* display:none; */
+	line-height: 0%;
+	opacity: 0;
+	height: 0px;
+	overflow: hidden;
+	padding: 0% 2%;
+	transition: all 0.5s;
 }
-
-input[name="accInput"]:checked~div.section-without-heading {
-  /* display:block; */
-  opacity: 1;
-  line-height: 150%;
-  padding: 1% 2%;
-  height: auto;
+input[name="accInput"]:checked ~ div.section-without-heading {
+	/* display:block; */
+	opacity: 1;
+	line-height: 150%;
+	padding: 1% 2%;
+	height: auto;
 }
-
 /* Acc-Design mmmmmmmmmmmmmmmmmmmmmmmmmmm */
 label[for^="checker"] {
-  cursor: pointer;
+	cursor: pointer;
 }
-
 .accSegment {
-  margin: 2px;
+	margin: 2px;
 }
-
 /* Drehpfeil mmmmmmmmmmmmmmmmmmmmmmmmmmmmmm*/
-.accSegment>h2>label:before {
-  display: inline-block;
-  font-size: 3rem;
-  content: "\0203A";
-  padding: 0 10px;
-  transition: all 0.5s;
-  transform: translateY(0.3rem);
+.accSegment > h2 > label:before {
+	display: inline-block;
+	font-size: 3rem;
+	content: "\0203A";
+	padding: 0 10px;
+	transition: all 0.5s;
+	transform: translateY(0.3rem);
 }
-
-input[name="accInput"]:checked~h2>label:before {
-  transform: translateY(0.3rem) rotate(90deg);
+input[name="accInput"]:checked ~ h2 > label:before {
+	transform: translateY(0.3rem) rotate(90deg);
 }
-
 /* label for close mmmmmmmmmmmmmmmmmmmmmmmmmmmmmm*/
-.accSegment>h2>label[for="close"] {
-  opacity: 0;
-  transition: 2s;
+.accSegment > h2 > label[for="close"] {
+	opacity: 0;
+	transition: 2s;
 }
-
-.accSegment>h2>label[for="close"]:before {
-  content: "";
+.accSegment > h2 > label[for="close"]:before {
+	content: "";
 }
-
-article>input[name="accInput"]:checked~h2>label[for="close"] {
-  opacity: 1;
+article > input[name="accInput"]:checked ~ h2 > label[for="close"] {
+	opacity: 1;
 }

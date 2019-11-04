@@ -1,116 +1,95 @@
 @charset "utf-8";
-
 body main {
-  max-width: 50rem;
-  margin: 0 auto;
+	max-width: 50rem;
+	margin: 0 auto;
 }
-
 h1 {
-  margin-bottom: 5rem;
+	margin-bottom: 5rem;
 }
-
 p {
-  font-size: .875rem;
+	font-size: .875rem;
 }
-
 main {
-  margin-bottom: 2rem;
+	margin-bottom: 2rem;
 }
-
 form fieldset {
-  border: 0;
+	border: 0;
 }
-
 form ul {
-  list-style-type: none;
+	list-style-type: none;
 }
-
-form fieldset>ul>li {
-  margin-bottom: 20px;
+form fieldset > ul > li {
+	margin-bottom: 20px;
 }
-
 form fieldset legend {
-  color: #e2001a;
-  font-weight: 700;
-  font-size: 1.5rem;
-  margin-bottom: 2rem;
+	color: #e2001a;
+	font-weight: 700;
+	font-size: 1.5rem;
+	margin-bottom: 2rem;
 }
-
 form label {
-  font-size: .875rem;
-  font-weight: 400;
-  line-height: 1.8;
+	font-size: .875rem;
+	font-weight: 400;
+	line-height: 1.8;
 }
-
-form ul li.required>label::after {
-  content: '*';
+form ul li.required > label::after {
+	content: '*';
 }
-
 /* every input except [type="radio"] */
 form [type="text"], form [type="password"], form [type="email"], form [type="tel"], form [type="number"], form textarea {
-  display: block;
-  width: 100%;
-  border-radius: 3px;
-  border-color: #d3d2ca;
-  padding: 3px 3px 3px 10px;
-  background: #ecece8;
-  line-height: 28px;
-  border: 1px solid #8a8a8a;
+	display: block;
+	width: 100%;
+	border-radius: 3px;
+	border-color: #d3d2ca;
+	padding: 3px 3px 3px 10px;
+	background: #ecece8;
+	line-height: 28px;
+	border: 1px solid #8a8a8a;
 }
-
-form #salutation>* {
-  float: left;
+form #salutation > * {
+	float: left;
 }
-
 form #salutation ul li {
-  display: inline-block;
+	display: inline-block;
 }
-
 form #salutation label {
-  margin-right: .75rem;
+	margin-right: .75rem;
 }
-
 form #li-firstname, form #li-lastname, form #li-mobile, form #li-email {
-  float: left;
-  width: 50%;
+	float: left;
+	width: 50%;
 }
-
 form #li-firstname, form #li-address, form #li-mobile, form #li-message {
-  clear: left;
+	clear: left;
 }
-
 form #li-firstname, form #li-mobile {
-  padding-right: 1rem;
+	padding-right: 1rem;
 }
-
 /* mobile --------------------------------------*/
 @media screen and (max-width: 869px) {
-  form #li-firstname, form #li-lastname, form #li-mobile, form #li-email {
-    width: 100%;
-  }
-
-  form #li-firstname, form #li-mobile {
-    padding-right: 0;
-  }
+	form #li-firstname, form #li-lastname, form #li-mobile, form #li-email {
+		width: 100%;
+	}
+	form #li-firstname, form #li-mobile {
+		padding-right: 0;
+	}
 }
-
 form #submit {
-  background: #ffb500;
-  width: auto;
-  text-transform: uppercase;
-  color: white;
-  cursor: pointer;
-  text-align: center;
-  display: block;
-  padding: 17px 43px;
-  font-size: 1.125rem;
-  border-radius: 5px;
-  margin: 3rem auto 3rem;
-  border-style: none;
-  font-family: inherit;
+	background: #ffb500;
+	width: auto;
+	text-transform: uppercase;
+	color: white;
+	cursor: pointer;
+	text-align: center;
+	display: block;
+	padding: 17px 43px;
+	font-size: 1.125rem;
+	border-radius: 5px;
+	margin: 3rem auto 3rem;
+	border-style: none;
+	font-family: inherit;
 }
-
 form a {
-  color: black;
-  font-weight: 400;
+	color: black;
+	font-weight: 400;
 }

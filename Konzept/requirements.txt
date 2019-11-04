@@ -18,7 +18,7 @@ Anforderungen der technischen Umsetzung
       - Aufgaben/Pixelgreen
   + kontakt.html
   - impressum.html
-- mobile first
+- mobile first: css für mobile Ansicht ist der Default, css für Desktop dann in einem media-Query unterbringen.
 + Min. eine Schrift im Projektordner speichern und in das Projekt einbinden
 + Formular (z.B. Kontaktformular):
   "Über die Stammzellspende" => WEITERLESEN => "Nachricht schreiben" => https://webforms.dkms.de/de/DE/contact/registration/
@@ -26,7 +26,7 @@ Anforderungen der technischen Umsetzung
   + Datenschutz
   + Impressum
 + Favicon
-- Grafiken in Photoshop für Web optimieren
+- Grafiken in Photoshop für Web optimieren (z.B. HTML <picture> Tag verwenden: https://www.w3schools.com/tags/tag_picture.asp)
 (+) mind. 1 Seitenelement frameworkbasierend bzw. JavaScript (Bildergalerie, Slider, …), z.B.:
   + WEITERLESEN-Links mit javascript umsetzen
   - baue die Bildergalerie von https://www.dkms.de/de ein.
@@ -34,15 +34,19 @@ Anforderungen der technischen Umsetzung
   - in #become-a-donor einige der Schritte 0-5 ausprogrammieren mit javascript.
 + Download einer pdf-Datei ermöglichen
 - auf den 4 gängigen Browsern fehlerfrei dargestellt
-  - Firefox
-  - Chrome
+  - Mozilla Firefox
+  - Google Chrome
   - Internet Explorer
-  - Edge?
+  - MicrosoftEdge
 + Suchmaschinenoptimierung (meta-Tags, robots.txt, sitemap.xml, keywords im Text verwenden)
   (see lecture/118SEO.html)
 + FK: HTML-Seiten validieren, z.B. mit https://validator.w3.org/
 - Konzept.docx
 - "cookies akzeptieren" dazufügen
 
-TODO: - Fehler im Formular kontakt.html: die Überschrift <h1> ist ineinanderverschoben, falls sie umgebrochen wird.
-      - NEXT-TODO: "Browser testen", Zeile 36-40
+Fragen: - Sind bei der HTML-Validierung Warnungen ok? fehlende alt-Attribute in img-Tags sind nicht ok, andere Warnungen schon.
+	    - "mind. 1 Seitenelement frameworkbasierend bzw. JavaScript": Ist das schon erfüllt, falls man eigenen, sehr einfachen Javascript-Code auf der Seite hat? Lieber noch ein Framework einbinden, Krimskrams einbauen.
+	    - "Download einer pdf-Datei ermöglichen": Wie findest Du den PDF-Donwload-Link oder das Kontaktformular der Seite? Im Konzept beschreiben oder einfach Live vorführen? einfach vorführen, responsive.
+		- Fehler im Formular kontakt.html: die Überschrift <h1> ist ineinanderverschoben, falls sie umgebrochen wird.
+	  
+NEXT-TODO: "Browser testen", Zeile 36-40

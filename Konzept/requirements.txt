@@ -49,3 +49,4 @@ Fragen: - Sind bei der HTML-Validierung Warnungen ok? fehlende alt-Attribute in 
 	    - "mind. 1 Seitenelement frameworkbasierend bzw. JavaScript": Ist das schon erfüllt, falls man eigenen, sehr einfachen Javascript-Code auf der Seite hat? Lieber noch ein Framework einbinden, Krimskrams einbauen.
 	  
 NEXT-TODO: "Browser testen", Zeile 36-40
+FEHLER: - impressum.html, datenschutz.html und kontakt.html werden in IE zu weit links dargestellt

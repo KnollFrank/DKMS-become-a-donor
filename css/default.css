@@ -177,11 +177,17 @@ h1 {
 	background-color: #f1f0ee;
 	border: 1px solid #d3d2ca;
 }
-#become-a-donor .part nav ol {
+#become-a-donor .part {
+	display: flex;
+	flex-direction: row;
+	border: 1px solid #d3d2ca;
+}
+#become-a-donor .part nav ul {
 	display: flex;
 	flex-direction: column;
 	width: 162px;
 	height: auto;
+	list-style-type: none;
 }
 #become-a-donor .part nav ol li {
 	height: 85px;
@@ -189,6 +195,7 @@ h1 {
 	flex-grow: 1;
 	align-self: stretch;
 	border: 1px solid #d3d2ca;
+	list-style-position: inside;
 }
 #article-info p:first-of-type {
 	margin-bottom: 2rem;
@@ -436,4 +443,3 @@ ul.menu li a {
 		display: none;
 	}
 	/* END: navi */
-}

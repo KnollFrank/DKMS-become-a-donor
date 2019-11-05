@@ -20,7 +20,7 @@ function nextpart() {
 
 function show() {
 	$('.part').hide();
-	$('div:nth-of-type(' + z + ')').fadeIn(300);
+	$('div:nth-of-type(' + z + ')').show();
 }
 $(document).ready(function () {
 	anz = $('.part').length;

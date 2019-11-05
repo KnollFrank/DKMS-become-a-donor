@@ -10,5 +10,5 @@ if (document.cookie.indexOf(cookieAssignment) != -1) {
 
 function hidecookiedingsbums() {
 	document.cookie = cookieAssignment + ';path=/';
-	$('#cookiedingsbums').slideUp()
+	$('#cookiedingsbums').slideUp();
 }

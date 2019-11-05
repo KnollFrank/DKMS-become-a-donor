@@ -33,6 +33,7 @@
 <!-- END: favicon--> 
 <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script> 
 <script src="js/details.js"></script>
+<script src="js/stepper.js"></script>
 <link href="css/default.css" rel="stylesheet">
 <link href="css/cookie.css" rel="stylesheet">
 </head>
@@ -143,7 +144,6 @@
 				<div class="part">
 					<h2>Geben Sie Ihre Maße ein</h2>
 					<button type="button" onClick="prevpart();">prev</button>
-					<button type="button" onClick="nextpart();">next</button>
 				</div>
 			</article>
 		</section>
@@ -416,27 +416,5 @@
 	</div>
 </div>
 <script src="js/cookie.js"></script> 
-<script>
-	   /* adapted from test_Alex_geruest3.html */
-       var anz = $('.part').length; //wie oft .part
-       var z = 1;                   //zählvariable
-        function prevpart() {       //click preve
-            z--;
-            if(z < 1) {z = anz;}
-            show(z);                //funct. z. Anzeige mit akt. z
-        }
-        function nextpart() {
-            z++;            
-            if(z > anz) {z = 1;}
-            show(z);
-        }
-        function show(x){           //das x. .part einblenden
-            $('.part').hide();            
-            $('div:nth-of-type(' + x + ')').fadeIn(300);
-        }
-        $(document).ready(function(){
-            show(z);                //bei Seitenaufruf 1. .part anzeigen
-        });
-</script>
 </body>
 </html>

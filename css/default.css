@@ -199,7 +199,7 @@ h1 {
   text-align: center;
 }
 
-#become-a-donor section a {
+#become-a-donor .become-a-donor-button {
   display: block;
   color: white;
   font-weight: 400;
@@ -210,6 +210,10 @@ h1 {
   font-size: .875rem;
   text-align: center;
   border-radius: 7px;
+}
+
+#become-a-donor .question {
+  min-height: 320px;
 }
 
 #become-a-donor .part:first-of-type section {
@@ -230,6 +234,12 @@ h1 {
 
 #become-a-donor .part>section {
   flex-basis: 80%;
+}
+
+#become-a-donor .nav-buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
 }
 
 #become-a-donor .part:first-of-type {

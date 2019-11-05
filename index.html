@@ -120,7 +120,7 @@
 					<div class="part">
 						<section>
 							<h3>Ihr Alter, Wohnsitz und Ihre Gesundheit sind wichtig.</h3>
-							<a onClick="nextpart();">Überprüfen Sie, ob Sie Spender werden können</a>
+							<a class="become-a-donor-button" onClick="nextpart();">Überprüfen Sie, ob Sie Spender werden können</a>
 							<p>Als registrierter Spender werden Sie vielleicht bald zum Lebensretter!</p>
 						</section>
 					</div>
@@ -135,11 +135,13 @@
 							</ol>
 						</nav>
 						<section>
-							<h2>Wohnen Sie in Deutschland?</h2>
-							<p><img src="img/de.png" alt="Deutschland"></p>
-							<nav>
-								<button type="button" onClick="prevpart();">prev</button>
-								<button type="button" onClick="nextpart();">next</button>
+							<header class="question">
+								<h2>Wohnen Sie in Deutschland?</h2>
+								<p><img src="img/de.png" alt="Deutschland"></p>
+							</header>
+							<nav class="nav-buttons">
+								<button type="button" class="become-a-donor-button" onClick="prevpart();">Nein</button>
+								<button type="button" class="become-a-donor-button" onClick="nextpart();">Ja</button>
 							</nav>
 						</section>
 					</div>
@@ -154,9 +156,13 @@
 							</ol>
 						</nav>
 						<section>
-							<h2>Sind Sie bereits bei der DKMS oder einer anderen Datei durch Blutentnahme oder per Wattestäbchen registriert?</h2>
-							<button type="button" onClick="prevpart();">prev</button>
-							<button type="button" onClick="nextpart();">next</button>
+							<header class="question">
+								<h2>Sind Sie bereits bei der DKMS oder einer anderen Datei durch Blutentnahme oder per Wattestäbchen registriert?</h2>
+							</header>
+							<nav class="nav-buttons">
+								<button type="button" class="become-a-donor-button" onClick="prevpart();">Nein</button>
+								<button type="button" class="become-a-donor-button" onClick="nextpart();">Ja</button>
+							</nav>
 						</section>
 					</div>
 					<div class="part">
@@ -170,9 +176,13 @@
 							</ol>
 						</nav>
 						<section>
-							<h2>Bitte geben Sie Ihr Geburtsdatum an</h2>
-							<button type="button" onClick="prevpart();">prev</button>
-							<button type="button" onClick="nextpart();">next</button>
+							<header class="question">
+								<h2>Bitte geben Sie Ihr Geburtsdatum an</h2>
+							</header>
+							<nav class="nav-buttons">
+								<button type="button" class="become-a-donor-button" onClick="prevpart();">Nein</button>
+								<button type="button" class="become-a-donor-button" onClick="nextpart();">Ja</button>
+							</nav>
 						</section>
 					</div>
 					<div class="part">
@@ -186,9 +196,13 @@
 							</ol>
 						</nav>
 						<section>
-							<h2>Haben Sie eine chronische Krankheit, die zum Ausschluss führt?</h2>
-							<button type="button" onClick="prevpart();">prev</button>
-							<button type="button" onClick="nextpart();">next</button>
+							<header class="question">
+								<h2>Haben Sie eine chronische Krankheit, die zum Ausschluss führt?</h2>
+							</header>
+							<nav class="nav-buttons">
+								<button type="button" class="become-a-donor-button" onClick="prevpart();">Nein</button>
+								<button type="button" class="become-a-donor-button" onClick="nextpart();">Ja</button>
+							</nav>
 						</section>
 					</div>
 					<div class="part">
@@ -202,8 +216,12 @@
 							</ol>
 						</nav>
 						<section>
-							<h2>Geben Sie Ihre Maße ein</h2>
-							<button type="button" onClick="prevpart();">prev</button>
+							<header class="question">
+								<h2>Geben Sie Ihre Maße ein</h2>
+							</header>
+							<nav class="nav-buttons">
+								<button type="button" class="become-a-donor-button" onClick="prevpart();">Nein</button>
+							</nav>
 						</section>
 					</div>
 				</article>

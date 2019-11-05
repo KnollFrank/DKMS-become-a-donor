@@ -6,7 +6,7 @@
 	font-family: "DKMS-Brushed";
 	src: url(../fonts/DKMS-Brushed.eot);
 	src: url(../fonts/DKMS-Brushed-iefix.eot) format('embedded-opentype'), url(../fonts/DKMS-Brushed.woff) format('woff'), url(../fonts/DKMS-Brushed.ttf) format('truetype');
-	font-display: swap
+	font-display: swap;
 }
 * {
 	margin: 0;
@@ -175,6 +175,19 @@ h1 {
 #become-a-donor section section {
 	padding: 25px 75px;
 	background-color: #f1f0ee;
+	border: 1px solid #d3d2ca;
+}
+#become-a-donor .part nav ol {
+	display: flex;
+	flex-direction: column;
+	width: 162px;
+	height: auto;
+}
+#become-a-donor .part nav ol li {
+	height: 85px;
+	background-color: #f1f0ee;
+	flex-grow: 1;
+	align-self: stretch;
 	border: 1px solid #d3d2ca;
 }
 #article-info p:first-of-type {

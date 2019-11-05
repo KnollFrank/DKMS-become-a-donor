@@ -35,6 +35,7 @@ https://www.ideenlounge.de/der-cookie-hinweis-ohne-plugin-ohne-javascript-zum-co
 	padding: 15px;
 	white-space: nowrap;
 }
+#cookiedingsbums #cookiedingsbums-buttons #cookiedingsbums-buttons-content {}
 #cookiedingsbums #cookiedingsbums-buttons #cookiedingsbums-agree, #cookiedingsbums #cookiedingsbums-buttons #cookiedingsbums-find-out-more {
 	color: black;
 	background-color: #ededed;
@@ -44,7 +45,27 @@ https://www.ideenlounge.de/der-cookie-hinweis-ohne-plugin-ohne-javascript-zum-co
 	cursor: pointer;
 	text-decoration: none;
 	text-transform: uppercase;
+	display: inline-block;
 }
 #cookiedingsbums #cookiedingsbums-buttons #cookiedingsbums-agree:hover, #cookiedingsbums #cookiedingsbums-buttons #cookiedingsbums-find-out-more:hover {
 	background-color: #fdfdfd;
+}
+/* mobile --------------------------------------*/
+@media screen and (max-width: 869px) {
+	#cookiedingsbums #cookiedingsbums-content {
+		max-width: 100%;
+	}
+	#cookiedingsbums #cookiedingsbums-text {
+		float: none;
+		max-width: 100%;
+	}
+	#cookiedingsbums #cookiedingsbums-buttons {
+		float: none;
+		max-width: 100%;
+		text-align: center;
+	}
+	#cookiedingsbums #cookiedingsbums-buttons #cookiedingsbums-agree, #cookiedingsbums #cookiedingsbums-buttons #cookiedingsbums-find-out-more {
+		display: block;
+		margin-bottom: 15px;
+	}
 }

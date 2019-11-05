@@ -1,0 +1,47 @@
+/*
+https://www.ideenlounge.de/der-cookie-hinweis-ohne-plugin-ohne-javascript-zum-copypaste-in-zwei-coolen-styles/
+*/
+#cookiedingsbums a {
+	color: #000;
+	text-decoration: none;
+}
+#cookiedingsbums a:hover {
+	text-decoration: underline;
+}
+#cookiedingsbums div {
+	padding: 10px;
+	padding-right: 40px;
+}
+#cookiedingsbums {
+	outline: 1px solid #7b92a9;
+	text-align: right;
+	border-top: 1px solid #fff;
+	background: #eee;
+	background: linear-gradient(#ddd, #eee);
+	position: fixed;
+	bottom: 0px;
+	z-index: 10000;
+	width: 100%;
+	font-size: 12px;
+	line-height: 16px;
+}
+#cookiedingsbumsCloser {
+	color: #333;
+	font: 14px/100% arial, sans-serif;
+	text-decoration: none;
+	text-shadow: 0 1px 0 #fff;
+	cursor: pointer;
+	border: 1px solid white;
+	border-color: white #7b92a9 white #7b92a9;
+	padding: 4px 10px;
+	margin-left: 10px;
+	background: #ddd;
+	/* Old browsers */
+	background: linear-gradient(#eee, #ddd);
+}
+#cookiedingsbumsCloser:hover {
+	border-bottom: 1px solid white;
+	border-right: 1px solid white;
+	border-top: 1px solid #7b92a9;
+	border-left: 1px solid #7b92a9;
+}

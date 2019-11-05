@@ -33,10 +33,6 @@ https://www.ideenlounge.de/der-cookie-hinweis-ohne-plugin-ohne-javascript-zum-co
 }
 #cookiedingsbums #cookiedingsbums-text a {
 	color: white;
-	text-decoration: underline;
-}
-#cookiedingsbums #cookiedingsbums-text a:hover {
-	text-decoration: none;
 }
 #cookiedingsbums #cookiedingsbums-buttons #cookiedingsbums-agree, #cookiedingsbums #cookiedingsbums-buttons #cookiedingsbums-find-out-more {
 	color: black;

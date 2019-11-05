@@ -2,28 +2,57 @@
 https://www.ideenlounge.de/der-cookie-hinweis-ohne-plugin-ohne-javascript-zum-copypaste-in-zwei-coolen-styles/
 */
 #cookiedingsbums a {
-	color: #000;
-	text-decoration: none;
-}
-#cookiedingsbums a:hover {
+	color: white;
 	text-decoration: underline;
 }
+#cookiedingsbums a:hover {
+	text-decoration: none;
+}
 #cookiedingsbums div {
-	padding: 10px;
-	padding-right: 40px;
+	/*	padding: 10px;
+	padding-right: 40px;*/
 }
 #cookiedingsbums {
+	color: white;
 	outline: 1px solid #7b92a9;
 	text-align: right;
 	border-top: 1px solid #fff;
-	background: #eee;
-	background: linear-gradient(#ddd, #eee);
+	background: #00a3e0;
 	position: fixed;
 	bottom: 0px;
 	z-index: 10000;
 	width: 100%;
-	font-size: 12px;
-	line-height: 16px;
+	font-size: 14px;
+	line-height: 14px;
+}
+#cookiedingsbums #cookiedingsbums-content {
+	margin: 0 auto;
+	max-width: 75%;
+}
+#cookiedingsbums #cookiedingsbums-text {
+	float: left;
+	max-width: 60%;
+	text-align: left;
+	margin: 5px 0;
+	padding: 5px;
+}
+#cookiedingsbums #cookiedingsbums-buttons {
+	float: right;
+	max-width: 40%;
+	margin: 5px 0;
+	padding: 15px;
+}
+#cookiedingsbums #cookiedingsbums-buttons #cookiedingsbums-agree, #cookiedingsbums #cookiedingsbums-buttons #cookiedingsbums-find-out-more {
+	color: black;
+	background-color: #ededed;
+	padding: 5px;
+	margin-right: 5px;
+	border-radius: 5px;
+	cursor: pointer;
+	text-decoration: none;
+}
+#cookiedingsbums #cookiedingsbums-buttons #cookiedingsbums-agree:hover, #cookiedingsbums #cookiedingsbums-buttons #cookiedingsbums-find-out-more:hover {
+	background-color: #fdfdfd;
 }
 #cookiedingsbumsCloser {
 	color: #333;

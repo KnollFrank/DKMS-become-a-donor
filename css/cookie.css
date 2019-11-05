@@ -23,6 +23,10 @@ https://www.ideenlounge.de/der-cookie-hinweis-ohne-plugin-ohne-javascript-zum-co
 	text-align: left;
 	margin: 5px 0;
 	padding: 5px;
+	line-height: 1.4;
+}
+#cookiedingsbums #cookiedingsbums-text a {
+	color: white;
 }
 #cookiedingsbums #cookiedingsbums-buttons {
 	float: right;
@@ -31,17 +35,15 @@ https://www.ideenlounge.de/der-cookie-hinweis-ohne-plugin-ohne-javascript-zum-co
 	padding: 15px;
 	white-space: nowrap;
 }
-#cookiedingsbums #cookiedingsbums-text a {
-	color: white;
-}
 #cookiedingsbums #cookiedingsbums-buttons #cookiedingsbums-agree, #cookiedingsbums #cookiedingsbums-buttons #cookiedingsbums-find-out-more {
 	color: black;
 	background-color: #ededed;
-	padding: 5px;
+	padding: 5px 15px;
 	margin-right: 5px;
 	border-radius: 5px;
 	cursor: pointer;
 	text-decoration: none;
+	text-transform: uppercase;
 }
 #cookiedingsbums #cookiedingsbums-buttons #cookiedingsbums-agree:hover, #cookiedingsbums #cookiedingsbums-buttons #cookiedingsbums-find-out-more:hover {
 	background-color: #fdfdfd;

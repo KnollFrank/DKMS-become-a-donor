@@ -1,7 +1,7 @@
-/* temporarily setting hidecookiedingsbums=0 */
-/* document.cookie = 'hidecookiedingsbums=0;path=/' */
 console.log('My cookies: ', document.cookie);
-if (document.cookie.indexOf('hidecookiedingsbums=1') != -1) {
+var cookieAssignment = 'hidecookiedingsbums=1';
+
+if (document.cookie.indexOf(cookieAssignment) != -1) {
 	$('#cookiedingsbums').hide();
 } else {
 	$('#cookiedingsbums').prependTo('body');
@@ -9,6 +9,6 @@ if (document.cookie.indexOf('hidecookiedingsbums=1') != -1) {
 }
 
 function hidecookiedingsbums() {
-	document.cookie = 'hidecookiedingsbums=1;path=/';
+	document.cookie = cookieAssignment + ';path=/';
 	$('#cookiedingsbums').slideUp()
 }

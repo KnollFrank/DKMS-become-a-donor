@@ -216,6 +216,11 @@ h1 {
   min-height: 320px;
 }
 
+#become-a-donor .part nav ol li.active {
+  color: #e2001a;
+  background-color: #d3d2ca;
+}
+
 #become-a-donor .part:first-of-type section {
   padding: 25px 75px;
   background-color: #f1f0ee;

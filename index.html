@@ -32,7 +32,7 @@
 <meta name="theme-color" content="#ffffff">
 <!-- END: favicon--> 
 <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script> 
-<script src="js/details.js"></script>
+<script src="js/details.js"></script> 
 <script src="js/stepper.js"></script>
 <link href="css/default.css" rel="stylesheet">
 <link href="css/cookie.css" rel="stylesheet">
@@ -122,9 +122,20 @@
 					<p>Als registrierter Spender werden Sie vielleicht bald zum Lebensretter!</p>
 				</div>
 				<div class="part">
-					<h2>Wohnen Sie in Deutschland?</h2>
-					<button type="button" onClick="prevpart();">prev</button>
-					<button type="button" onClick="nextpart();">next</button>
+					<nav>
+						<ol>
+							<li>Wohnort</li>
+							<li>Registriert</li>
+							<li>Alter</li>
+							<li>Gesundheit</li>
+							<li>Maße</li>
+						</ol>
+					</nav>
+					<section>
+						<h2>Wohnen Sie in Deutschland?</h2>
+						<button type="button" onClick="prevpart();">prev</button>
+						<button type="button" onClick="nextpart();">next</button>
+					</section>
 				</div>
 				<div class="part">
 					<h2>Sind Sie bereits bei der DKMS oder einer anderen Datei durch Blutentnahme oder per Wattestäbchen registriert?</h2>
@@ -415,6 +426,6 @@
 		<div id="cookiedingsbums-buttons"><span id="cookiedingsbums-agree" onclick="hidecookiedingsbums()">Cookies akzeptieren</span> <a id="cookiedingsbums-find-out-more" href="datenschutz.html" target="_blank">Mehr erfahren</a></div>
 	</div>
 </div>
-<script src="js/cookie.js"></script> 
+<script src="js/cookie.js"></script>
 </body>
 </html>

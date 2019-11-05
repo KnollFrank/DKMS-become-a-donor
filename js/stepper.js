@@ -1,12 +1,13 @@
 /* adapted from test_Alex_geruest3.html */
 var anz;
-var z = 1; //zählvariable
-function prevpart() { //click preve
+var z;
+
+function prevpart() {
 	z--;
 	if (z < 1) {
 		z = 1;
 	}
-	show(z); //funct. z. Anzeige mit akt. z
+	show();
 }
 
 function nextpart() {
@@ -14,14 +15,15 @@ function nextpart() {
 	if (z > anz) {
 		z = anz;
 	}
-	show(z);
+	show();
 }
 
-function show(x) { //das x. .part einblenden
+function show() {
 	$('.part').hide();
-	$('div:nth-of-type(' + x + ')').fadeIn(300);
+	$('div:nth-of-type(' + z + ')').fadeIn(300);
 }
 $(document).ready(function () {
-	anz = $('.part').length; //wie oft .part
-	show(z); //bei Seitenaufruf 1. .part anzeigen
+	anz = $('.part').length;
+	z = 1;
+	show();
 });

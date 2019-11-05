@@ -114,11 +114,36 @@
 				<h2>Überprüfen Sie die Voraussetzungen</h2>
 				<p>Grundsätzlich kann jeder gesunde Mensch, der zwischen 17 und 55 Jahren alt ist und nicht bereits bei der DKMS oder einer anderen Datei registriert ist, Stammzellspender werden.</p>
 			</header>
-			<section>
-				<h3>Ihr Alter, Wohnsitz und Ihre Gesundheit sind wichtig.</h3>
-				<a href="#">Überprüfen Sie, ob Sie Spender werden können</a>
-				<p>Als registrierter Spender werden Sie vielleicht bald zum Lebensretter!</p>
-			</section>
+			<article>
+				<div class="part">
+					<h3>Ihr Alter, Wohnsitz und Ihre Gesundheit sind wichtig.</h3>
+					<a onClick="nextpart();">Überprüfen Sie, ob Sie Spender werden können</a>
+					<p>Als registrierter Spender werden Sie vielleicht bald zum Lebensretter!</p>
+				</div>
+				<div class="part">
+					<h2>AA Hamb... </h2>
+					<div class="zweispalter">
+						<div>Text ...</div>
+						<div>Bild mit Text</div>
+					</div>
+				</div>
+				<div class="part">
+					<h2>BB Hannover... </h2>
+					<div class="zweispalter">
+						<div>Text</div>
+						<div>Bild mit Text</div>
+					</div>
+				</div>
+				<div class="part">
+					<h2>CC Jena... </h2>
+					<div class="zweispalter">
+						<div>Text</div>
+						<div>Bild mit Text</div>
+					</div>
+				</div>
+				<button type="button" onClick="prevpart();">prev</button>
+				<button type="button" onClick="nextpart();">next</button>
+			</article>
 		</section>
 		<aside>
 			<h2>Mehr über die Registrierung</h2>
@@ -388,6 +413,28 @@
 		<div id="cookiedingsbums-buttons"><span id="cookiedingsbums-agree" onclick="hidecookiedingsbums()">Cookies akzeptieren</span> <a id="cookiedingsbums-find-out-more" href="datenschutz.html" target="_blank">Mehr erfahren</a></div>
 	</div>
 </div>
-<script src="js/cookie.js"></script>
+<script src="js/cookie.js"></script> 
+<script>
+	   /* adapted from test_Alex_geruest3.html */
+       var anz = $('.part').length; //wie oft .part
+       var z = 1;                   //zählvariable
+        function prevpart() {       //click preve
+            z--;
+            if(z < 1) {z = anz;}
+            show(z);                //funct. z. Anzeige mit akt. z
+        }
+        function nextpart() {
+            z++;            
+            if(z > anz) {z = 1;}
+            show(z);
+        }
+        function show(x){           //das x. .part einblenden
+            $('.part').hide();            
+            $('div:nth-of-type(' + x + ')').fadeIn(300);
+        }
+        $(document).ready(function(){
+            show(z);                //bei Seitenaufruf 1. .part anzeigen
+        });
+</script>
 </body>
 </html>

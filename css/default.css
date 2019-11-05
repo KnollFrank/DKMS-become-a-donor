@@ -230,6 +230,7 @@ article, .article-without-heading {
 #other-ways-to-help header {
 	background: url('../img/other_ways_to_help_bg.png') no-repeat;
 	background-position: center center;
+	font-size: calc(0.7rem + 0.65vw); /* see https://bits.theorem.co/css-pro-tips-responsive-font-sizes-and-when-to-use-which-units/ */
 	height: 130px;
 	margin-bottom: 3rem;
 }
@@ -238,7 +239,6 @@ article, .article-without-heading {
 	float: left;
 	width: 50%;
 	color: white;
-	font-size: calc(1.25rem + 1vw); /* see https://bits.theorem.co/css-pro-tips-responsive-font-sizes-and-when-to-use-which-units/ */
 	font-weight: 400;
 	padding-top: 30px;
 }
@@ -246,7 +246,6 @@ article, .article-without-heading {
 	float: left;
 	width: 50%;
 	color: #5bc2e8;
-	font-size: 1.25rem;
 	padding-top: 30px;
 	padding-left: 40px;
 }

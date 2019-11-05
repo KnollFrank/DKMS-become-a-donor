@@ -185,7 +185,7 @@ h1 {
   margin-top: 1rem;
 }
 
-#become-a-donor section h3 {
+#become-a-donor section h3, #become-a-donor section h2 {
   text-align: center;
   margin-bottom: 1rem;
 }
@@ -224,6 +224,14 @@ h1 {
   border: 1px solid #d3d2ca;
 }
 
+#become-a-donor .part>nav {
+  flex-basis: 20%;
+}
+
+#become-a-donor .part>section {
+  flex-basis: 80%;
+}
+
 #become-a-donor .part:first-of-type {
   display: block;
 }
@@ -231,7 +239,6 @@ h1 {
 #become-a-donor .part nav ol {
   display: flex;
   flex-direction: column;
-  width: 180px;
   height: auto;
 }
 
@@ -242,6 +249,14 @@ h1 {
   align-self: stretch;
   border: 1px solid #d3d2ca;
   list-style-position: inside;
+}
+
+#become-a-donor #part1 img {
+  max-width: 120px;
+}
+
+#become-a-donor #part1 p {
+  text-align: center;
 }
 
 #article-info p:first-of-type {

@@ -49,23 +49,11 @@ Anforderungen der technischen Umsetzung
   (see lecture/118SEO.html)
 + HTML-Seiten validieren, z.B. mit https://validator.w3.org/
 - Konzept.docx
-- "cookies akzeptieren" dazufügen:
-  https://www.dkms.de/de/spender-werden:
-  <div id="sliding-popup" style="height: auto; width: 100%; bottom: 0px;" class="sliding-popup-bottom">
-    <div class="popup-content info">
-      <div id="popup-text">
-        <p>Cookies helfen uns, die Benutzerfreundlichkeit unserer Website zu verbessern. Mehr Informationen hierzu finden Sie in unserer <a href="datenschutzbestimmungen-der-dkms">Datenschutzerklärung</a>.</p>    </div>
-      <div id="popup-buttons">
-        <button type="button" class="agree-button">Cookies akzeptieren</button>
-        <button type="button" class="find-more-button">Mehr erfahren</button>
-      </div>
-    </div>
-  </div>
++ "cookies akzeptieren" dazufügen
 
 Fragen: - Sind bei der HTML-Validierung Warnungen ok? fehlende alt-Attribute in img-Tags sind nicht ok, andere Warnungen schon.
 	    - "mind. 1 Seitenelement frameworkbasierend bzw. JavaScript": Ist das schon erfüllt, falls man eigenen, sehr einfachen Javascript-Code auf der Seite hat? Lieber noch ein Framework einbinden, Krimskrams einbauen.
 
 TODO: - #other-ways-to-help muß bei mobilen Geräten folgendes erfüllen:
-        - der Text "Weitere Möglichkeiten zu helfen" muß vollständig im roten Pfeil erscheinen, kein überlauf
-      - der Text "Es gibt viele Möglichkeiten, unseren Kampf gegen Blutkrebs zu unterstützen." erscheint nicht mehr wie bei der
-        Desktop-Ansicht im blauen Pfeil, sondern unterhalb als Paragraph.
+        - der Text "Weitere Möglichkeiten zu helfen" muß vollständig im roten Pfeil erscheinen, kein Überlauf
+        - der Text "Es gibt viele Möglichkeiten, unseren Kampf gegen Blutkrebs zu unterstützen." erscheint nicht mehr wie bei der Desktop-Ansicht im blauen Pfeil, sondern unterhalb als Paragraph.

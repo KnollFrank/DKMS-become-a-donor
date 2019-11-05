@@ -238,7 +238,7 @@ article, .article-without-heading {
 	float: left;
 	width: 50%;
 	color: white;
-	font-size: 1.9rem;
+	font-size: calc(1.25rem + 1vw); /* see https://bits.theorem.co/css-pro-tips-responsive-font-sizes-and-when-to-use-which-units/ */
 	font-weight: 400;
 	padding-top: 30px;
 }

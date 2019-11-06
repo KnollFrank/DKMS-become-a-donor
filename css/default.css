@@ -183,6 +183,7 @@ h1 {
 }
 #become-a-donor .question {
 	min-height: 320px;
+	text-align: center;
 }
 #become-a-donor .part:first-of-type section {
 	padding: 25px 75px;
@@ -239,10 +240,14 @@ h1 {
 	margin: 0 auto;
 	max-width: 50%;
 	padding-top: 20px;
-	/*padding-bottom: 20px;;*/
 }
 #become-a-donor .select-age {
 	text-align: center;
+}
+#become-a-donor #a-check-illness {
+	color: black;
+	font-weight: 700;
+	text-transform: uppercase;
 }
 #article-info p:first-of-type {
 	margin-bottom: 2rem;

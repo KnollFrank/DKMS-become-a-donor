@@ -1,4 +1,4 @@
-@charset "utf-8";
+#details-ueber-die-stammzellspende footer a@charset "utf-8";
 /*  red: #e2001a
    blue: #00a3e0#
    grey: #f1f0ee
@@ -294,6 +294,7 @@ article, .article-without-heading {
 	text-transform: uppercase;
 	border-radius: 6px;
 	padding: 9px 20px;
+	display: inline-block;
 }
 .details-content {
 	margin-top: 1rem;

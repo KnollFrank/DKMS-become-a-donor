@@ -22,6 +22,7 @@ function show() {
 	$('.part').hide();
 	$('div:nth-of-type(' + z + ')').show();
 }
+
 $(document).ready(function () {
 	anz = $('.part').length;
 	z = 1;

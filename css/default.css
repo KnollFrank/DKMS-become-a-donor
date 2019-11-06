@@ -213,25 +213,27 @@ h1 {
 #become-a-donor .part:first-of-type {
 	display: block;
 }
-#become-a-donor .part nav ol {
+#become-a-donor .part nav ul {
+	list-style-type: none;
 	display: flex;
 	flex-direction: column;
 	height: auto;
 	font-family: "DKMS-Brushed", Arial, Helvetica, "Nimbus Sans L", sans-serif;
 	font-size: 3.5rem;
 }
-#become-a-donor .part nav ol li {
+#become-a-donor .part nav ul li {
 	height: 85px;
 	flex-grow: 1;
 	align-self: stretch;
 	border: 1px solid #d3d2ca;
 	list-style-position: inside;
 }
-#become-a-donor .part nav ol li span {
+#become-a-donor .part nav ul li span.description {
 	font-size: 1rem;
 	font-family: Verdana, sans-serif;
+	padding-left: 10px;
 }
-#become-a-donor .part nav ol li.active {
+#become-a-donor .part nav ul li.active {
 	color: #e2001a;
 	background-color: #d3d2ca;
 }

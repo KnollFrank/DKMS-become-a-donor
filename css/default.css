@@ -235,11 +235,14 @@ h1 {
 #become-a-donor #part1 p {
 	text-align: center;
 }
-#become-a-donor #img-threePersons {
+#become-a-donor .question-img {
 	display: block;
 	margin: 0 auto;
 	max-width: 50%;
 	padding-top: 20px;
+}
+#become-a-donor #img-measurements.question-img {
+	max-width: 25%;
 }
 #become-a-donor .select-age {
 	text-align: center;

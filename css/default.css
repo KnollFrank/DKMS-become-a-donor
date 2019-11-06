@@ -249,6 +249,13 @@ h1 {
 	font-weight: 700;
 	text-transform: uppercase;
 }
+#become-a-donor #table-cell-metric-height, #become-a-donor #table-cell-metric-weight {
+	text-align: left;
+	width: 150px;
+}
+#become-a-donor #metric-weight, #become-a-donor #metric-height {
+	width: 60px;
+}
 #article-info p:first-of-type {
 	margin-bottom: 2rem;
 }
@@ -398,6 +405,18 @@ ul.menu li a {
 	display: block;
 	clear: both;
 }
+/* START: Table */
+.table {
+	display: table;
+	border-spacing: 0.5em;
+}
+.table-row {
+	display: table-row;
+}
+.table-cell {
+	display: table-cell;
+}
+/* END: Table */
 #topnav, #navchecker {
 	display: none;
 }

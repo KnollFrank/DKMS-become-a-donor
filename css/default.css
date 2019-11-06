@@ -226,6 +226,7 @@ h1 {
 	align-self: stretch;
 	border: 1px solid #d3d2ca;
 	list-style-position: inside;
+	padding-left: 5px;
 }
 #become-a-donor .part nav ul li span.description {
 	font-size: 1rem;

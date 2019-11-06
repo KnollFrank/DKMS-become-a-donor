@@ -182,7 +182,7 @@ h1 {
 	cursor: pointer;
 }
 #become-a-donor .question {
-	min-height: 320px;
+	min-height: 295px;
 	text-align: center;
 }
 #become-a-donor .part:first-of-type section {
@@ -200,8 +200,7 @@ h1 {
 }
 #become-a-donor .part > section {
 	flex-basis: 80%;
-	padding-left: 15px;
-	padding-right: 15px;
+	padding: 15px;
 }
 #become-a-donor .nav-buttons {
 	display: flex;

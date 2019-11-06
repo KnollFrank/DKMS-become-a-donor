@@ -206,6 +206,8 @@ h1 {
 	display: flex;
 	flex-direction: row;
 	justify-content: space-around;
+	padding-top: 20px;
+	padding-bottom: 20px;
 }
 #become-a-donor .part:first-of-type {
 	display: block;
@@ -230,6 +232,16 @@ h1 {
 	max-width: 120px;
 }
 #become-a-donor #part1 p {
+	text-align: center;
+}
+#become-a-donor #img-threePersons {
+	display: block;
+	margin: 0 auto;
+	max-width: 50%;
+	padding-top: 20px;
+	/*padding-bottom: 20px;;*/
+}
+#become-a-donor .select-age {
 	text-align: center;
 }
 #article-info p:first-of-type {

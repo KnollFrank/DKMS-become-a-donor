@@ -441,8 +441,8 @@ article, .article-without-heading {
   }
 
   #other-ways-to-help #header3 {
-    padding-top: 30px;
-    padding-left: 40px;
+    padding-top: 25px;
+    text-align: center;
   }
 }
 

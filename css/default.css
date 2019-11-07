@@ -428,6 +428,7 @@ article, .article-without-heading {
 }
 
 #other-ways-to-help header p {
+	font-family: "DKMS-Brushed", Arial, Helvetica, "Nimbus Sans L", sans-serif;
   float: left;
   width: 50%;
   color: #5bc2e8;

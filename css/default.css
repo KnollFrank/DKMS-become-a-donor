@@ -105,9 +105,12 @@ main h1 {
 #nav-impressum > div {
 	padding-top: 15px;
 }
-@media screen and (max-width: 869px) {
+#nav-impressum ul.menu li {
+	flex-basis: 50%;
+}
+@media screen and (min-width: 870px) {
 	#nav-impressum ul.menu li {
-		flex-basis: 50%;
+		flex-basis: auto;
 	}
 }
 #nav-spender-werden {

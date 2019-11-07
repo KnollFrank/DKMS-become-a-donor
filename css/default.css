@@ -421,9 +421,10 @@ article, .article-without-heading {
 
 #other-ways-to-help #header1 {
   font-family: "DKMS-Brushed", Arial, Helvetica, "Nimbus Sans L", sans-serif;
-	font-size: 1.3rem;
+  font-size: 1.3rem;
   float: left;
   width: 50%;
+  text-align: left;
   color: white;
   font-weight: 400;
   padding-top: 25px;
@@ -432,10 +433,6 @@ article, .article-without-heading {
 
 /* MOBILE */
 @media screen and (max-width: 869px) {
-  #other-ways-to-help #header1 {
-    text-align: left;
-  }
-
   #other-ways-to-help #header2 {
     display: none;
   }
@@ -454,7 +451,7 @@ article, .article-without-heading {
 
   #other-ways-to-help #header2 {
     font-family: "DKMS-Brushed", Arial, Helvetica, "Nimbus Sans L", sans-serif;
-		font-size: 1.3rem;
+    font-size: 1.3rem;
     color: #5bc2e8;
     float: left;
     width: 50%;

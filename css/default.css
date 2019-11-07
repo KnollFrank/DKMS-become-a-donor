@@ -435,12 +435,9 @@ article, .article-without-heading {
   display: none;
 }
 
-/* MOBILE */
-@media screen and (max-width: 869px) {
-  #other-ways-to-help #header3 {
-    padding-top: 25px;
-    text-align: center;
-  }
+#other-ways-to-help #header3 {
+  padding-top: 25px;
+  text-align: center;
 }
 
 /* DESKTOP */
@@ -450,7 +447,7 @@ article, .article-without-heading {
   }
 
   #other-ways-to-help #header2 {
-		display: block;
+    display: block;
     font-family: "DKMS-Brushed", Arial, Helvetica, "Nimbus Sans L", sans-serif;
     font-size: 1.3rem;
     color: #5bc2e8;

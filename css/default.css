@@ -105,6 +105,11 @@ main h1 {
 #nav-impressum > div {
 	padding-top: 15px;
 }
+@media screen and (max-width: 769px) {
+	#nav-impressum ul.menu li {
+		flex-basis: 50%;
+	}
+}
 #nav-spender-werden {
 	background-color: #e2001a;
 }

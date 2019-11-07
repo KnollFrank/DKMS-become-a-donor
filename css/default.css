@@ -421,6 +421,7 @@ article, .article-without-heading {
 
 #other-ways-to-help #header1 {
   font-family: "DKMS-Brushed", Arial, Helvetica, "Nimbus Sans L", sans-serif;
+	font-size: 1.3rem;
   float: left;
   width: 50%;
   color: white;
@@ -433,7 +434,6 @@ article, .article-without-heading {
 @media screen and (max-width: 869px) {
   #other-ways-to-help #header1 {
     text-align: left;
-    font-size: 1.3rem;
   }
 
   #other-ways-to-help #header2 {
@@ -448,16 +448,13 @@ article, .article-without-heading {
 
 /* DESKTOP */
 @media screen and (min-width: 870px) {
-  #other-ways-to-help .background-holder {
-    font-size: 1.3rem;
-  }
-
   #other-ways-to-help #header1 {
     text-align: right;
   }
 
   #other-ways-to-help #header2 {
     font-family: "DKMS-Brushed", Arial, Helvetica, "Nimbus Sans L", sans-serif;
+		font-size: 1.3rem;
     color: #5bc2e8;
     float: left;
     width: 50%;

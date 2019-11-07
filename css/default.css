@@ -105,7 +105,7 @@ main h1 {
 #nav-impressum > div {
 	padding-top: 15px;
 }
-@media screen and (max-width: 769px) {
+@media screen and (max-width: 869px) {
 	#nav-impressum ul.menu li {
 		flex-basis: 50%;
 	}

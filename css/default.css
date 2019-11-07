@@ -413,7 +413,7 @@ article, .article-without-heading {
   margin-bottom: 3rem;
 }
 
-#background-holder {
+#other-ways-to-help .background-holder {
   background: url('../img/other_ways_to_help_bg.png') no-repeat;
   background-position: center center;
   height: 130px;
@@ -445,7 +445,7 @@ article, .article-without-heading {
 
 /* DESKTOP */
 @media screen and (min-width: 870px) {
-  #background-holder {
+  #other-ways-to-help .background-holder {
     font-size: 1.3rem;
   }
 

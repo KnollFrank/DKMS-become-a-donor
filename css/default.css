@@ -419,17 +419,20 @@ article, .article-without-heading {
   height: 130px;
 }
 
+#other-ways-to-help #header1 {
+  font-family: "DKMS-Brushed", Arial, Helvetica, "Nimbus Sans L", sans-serif;
+  float: left;
+  width: 50%;
+  color: white;
+  font-weight: 400;
+  padding-top: 25px;
+  padding-right: 40px;
+}
+
 /* MOBILE */
 @media screen and (max-width: 869px) {
   #other-ways-to-help #header1 {
-    font-family: "DKMS-Brushed", Arial, Helvetica, "Nimbus Sans L", sans-serif;
-    float: left;
-    width: 50%;
-    color: white;
-    font-weight: 400;
-    padding-top: 25px;
     text-align: left;
-    padding-right: 40px;
     font-size: 1.3rem;
   }
 
@@ -450,14 +453,7 @@ article, .article-without-heading {
   }
 
   #other-ways-to-help #header1 {
-    font-family: "DKMS-Brushed", Arial, Helvetica, "Nimbus Sans L", sans-serif;
-    float: left;
-    width: 50%;
-    color: white;
-    font-weight: 400;
-    padding-top: 25px;
     text-align: right;
-    padding-right: 40px;
   }
 
   #other-ways-to-help #header2 {

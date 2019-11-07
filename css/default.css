@@ -408,32 +408,74 @@ article, .article-without-heading {
 }
 
 #other-ways-to-help header {
-  background: url('../img/other_ways_to_help_bg.png') no-repeat;
-  background-position: center center;
   font-size: calc(0.7rem + 0.65vw);
   /* see https://bits.theorem.co/css-pro-tips-responsive-font-sizes-and-when-to-use-which-units/ */
-  height: 130px;
   margin-bottom: 3rem;
 }
 
-#other-ways-to-help header h3 {
-  font-family: "DKMS-Brushed", Arial, Helvetica, "Nimbus Sans L", sans-serif;
-  float: left;
-  width: 50%;
-  color: white;
-  font-weight: 400;
-  padding-top: 30px;
-  text-align: right;
-  padding-right: 40px;
+#bla {
+  background: url('../img/other_ways_to_help_bg.png') no-repeat;
+  background-position: center center;
+  height: 130px;
 }
 
-#other-ways-to-help header p {
-	font-family: "DKMS-Brushed", Arial, Helvetica, "Nimbus Sans L", sans-serif;
-  float: left;
-  width: 50%;
-  color: #5bc2e8;
-  padding-top: 30px;
-  padding-left: 40px;
+/* MOBILE */
+@media screen and (max-width: 869px) {
+  #other-ways-to-help #header1 {
+    font-family: "DKMS-Brushed", Arial, Helvetica, "Nimbus Sans L", sans-serif;
+    float: left;
+    width: 50%;
+    color: white;
+    font-weight: 400;
+    padding-top: 25px;
+    text-align: left;
+    padding-right: 40px;
+    font-size: 1.3rem;
+  }
+
+  #other-ways-to-help #header2 {
+    display: none;
+  }
+
+  #other-ways-to-help #header3 {
+    clear: both;
+    /*float: left;
+  width: 50%;*/
+    padding-top: 30px;
+    padding-left: 40px;
+  }
+}
+
+/* DESKTOP */
+@media screen and (min-width: 870px) {
+  #bla {
+    font-size: 1.3rem;
+  }
+
+  #other-ways-to-help #header1 {
+    font-family: "DKMS-Brushed", Arial, Helvetica, "Nimbus Sans L", sans-serif;
+    float: left;
+    width: 50%;
+    color: white;
+    font-weight: 400;
+    padding-top: 25px;
+    text-align: right;
+    padding-right: 40px;
+  }
+
+  #other-ways-to-help #header2 {
+    font-family: "DKMS-Brushed", Arial, Helvetica, "Nimbus Sans L", sans-serif;
+    color: #5bc2e8;
+    float: left;
+    width: 50%;
+    padding-top: 25px;
+    padding-left: 40px;
+    text-align: left;
+  }
+
+  #other-ways-to-help #header3 {
+    display: none;
+  }
 }
 
 #other-ways-to-help div a {

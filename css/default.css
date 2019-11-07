@@ -413,7 +413,7 @@ article, .article-without-heading {
   margin-bottom: 3rem;
 }
 
-#bla {
+#background-holder {
   background: url('../img/other_ways_to_help_bg.png') no-repeat;
   background-position: center center;
   height: 130px;
@@ -439,8 +439,6 @@ article, .article-without-heading {
 
   #other-ways-to-help #header3 {
     clear: both;
-    /*float: left;
-  width: 50%;*/
     padding-top: 30px;
     padding-left: 40px;
   }
@@ -448,7 +446,7 @@ article, .article-without-heading {
 
 /* DESKTOP */
 @media screen and (min-width: 870px) {
-  #bla {
+  #background-holder {
     font-size: 1.3rem;
   }
 

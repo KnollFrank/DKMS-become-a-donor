@@ -347,6 +347,8 @@ article, .article-without-heading {
 	color: white;
 	font-weight: 400;
 	padding-top: 30px;
+	text-align: right;
+	padding-right: 40px;
 }
 #other-ways-to-help header p {
 	float: left;

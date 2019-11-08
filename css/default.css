@@ -1,703 +1,574 @@
 @charset "UTF-8";
-
 /*  red: #e2001a
    blue: #00a3e0#
    grey: #f1f0ee
 */
 @font-face {
-  font-family: "DKMS-Brushed";
-  src: url(../fonts/DKMS-Brushed.eot);
-  src: url(../fonts/DKMS-Brushed-iefix.eot) format('embedded-opentype'), url(../fonts/DKMS-Brushed.woff) format('woff'), url(../fonts/DKMS-Brushed.ttf) format('truetype');
-  font-display: swap
+	font-family: "DKMS-Brushed";
+	src: url(../fonts/DKMS-Brushed.eot);
+	src: url(../fonts/DKMS-Brushed-iefix.eot) format('embedded-opentype'), url(../fonts/DKMS-Brushed.woff) format('woff'), url(../fonts/DKMS-Brushed.ttf) format('truetype');
+	font-display: swap
 }
-
 * {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  /* padding & border nach innen darstellen */
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	/* padding & border nach innen darstellen */
 }
-
 img {
-  max-width: 100%;
-  /* img dürfen sich verkleinern */
-  height: auto;
+	max-width: 100%;
+	/* img dürfen sich verkleinern */
+	height: auto;
 }
-
 html, body {
-  font-family: Verdana, sans-serif;
-  font-size: 14px;
+	font-family: Verdana, sans-serif;
+	font-size: 14px;
 }
-
-body>header {
-  padding-top: 1.5rem;
+body > header {
+	padding-top: 1.5rem;
 }
-
 main {
-  display: block;
-  /* for IE, see https://weblog.west-wind.com/posts/2015/jan/12/main-html5-tag-not-working-in-internet-explorer-91011 */
+	display: block;
+	/* for IE, see https://weblog.west-wind.com/posts/2015/jan/12/main-html5-tag-not-working-in-internet-explorer-91011 */
 }
-
 main h1 {
-  font-family: "DKMS-Brushed", Arial, Helvetica, "Nimbus Sans L", sans-serif;
-  font-weight: 400;
+	font-family: "DKMS-Brushed", Arial, Helvetica, "Nimbus Sans L", sans-serif;
+	font-weight: 400;
 }
-
 #img-logo {
-  float: left;
-  display: block;
-  width: 25%;
+	float: left;
+	display: block;
+	width: 25%;
 }
-
 #nav-language, .form-search, #nav-grundlegende-infos {
-  float: right;
-  width: auto;
+	float: right;
+	width: auto;
 }
-
 #nav-grundlegende-infos {
-  margin-top: 22px;
+	margin-top: 22px;
 }
-
 #nav-grundlegende-infos ul li, #nav-language ul li {
-  margin-left: 0.7rem;
+	margin-left: 0.7rem;
 }
-
 #nav-grundlegende-infos ul li a, #nav-language ul li a {
-  color: black;
-  text-transform: uppercase;
+	color: black;
+	text-transform: uppercase;
 }
-
 #nav-language ul li a {
-  line-height: 34px;
+	line-height: 34px;
 }
-
 #nav-ueber-uns {
-  background-color: lightgrey;
-  padding-top: 20px;
-  padding-bottom: 20px;
+	background-color: lightgrey;
+	padding-top: 20px;
+	padding-bottom: 20px;
 }
-
 @media screen and (min-width: 870px) {
-  #nav-ueber-uns section {
-    float: left;
-    width: 20%;
-    margin: 2%;
-  }
+	#nav-ueber-uns section {
+		float: left;
+		width: 20%;
+		margin: 2%;
+	}
 }
-
 #nav-ueber-uns section ul {
-  list-style-type: none;
-  line-height: 24px;
+	list-style-type: none;
+	line-height: 24px;
 }
-
 #nav-ueber-uns section ul li a {
-  text-decoration: none;
-  color: black;
+	text-decoration: none;
+	color: black;
 }
-
 #nav-ueber-uns section ul li a:hover {
-  text-decoration: underline;
+	text-decoration: underline;
 }
-
 #nav-ueber-uns section h2 {
-  border-top: solid 1px black;
-  text-transform: uppercase;
-  font-size: 14px;
-  font-weight: bold;
-  padding-top: 1rem;
-  margin-bottom: 20px;
+	border-top: solid 1px black;
+	text-transform: uppercase;
+	font-size: 14px;
+	font-weight: bold;
+	padding-top: 1rem;
+	margin-bottom: 20px;
 }
-
 #nav-ueber-uns #section-hauptkontakt, #nav-ueber-uns #section-spendenkonto {
-  color: #00a3e0;
+	color: #00a3e0;
 }
-
 #nav-ueber-uns #section-hauptkontakt h2, #nav-ueber-uns #section-spendenkonto h2 {
-  border-top: solid 1px #00a3e0;
+	border-top: solid 1px #00a3e0;
 }
-
 #nav-impressum {
-  background-color: grey;
-  min-height: 130px;
+	background-color: grey;
+	min-height: 130px;
 }
-
 #nav-impressum ul li a {
-  color: white;
-  text-transform: uppercase;
+	color: white;
+	text-transform: uppercase;
 }
-
-#nav-impressum>div {
-  padding-top: 15px;
+#nav-impressum > div {
+	padding-top: 15px;
 }
-
 #nav-impressum ul.menu li {
-  flex-basis: 50%;
+	flex-basis: 50%;
 }
-
 @media screen and (min-width: 870px) {
-  #nav-impressum ul.menu li {
-    flex-basis: auto;
-  }
+	#nav-impressum ul.menu li {
+		flex-basis: auto;
+	}
 }
-
 #nav-spender-werden {
-  background-color: #e2001a;
+	background-color: #e2001a;
 }
-
 #nav-spender-werden ul li {
-  padding: 10px;
-  text-align: center;
-  border-right: 1px solid rgba(255, 255, 255, .5);
-  flex: 0 0 25%;
+	padding: 10px;
+	text-align: center;
+	border-right: 1px solid rgba(255, 255, 255, .5);
+	flex: 0 0 25%;
 }
-
 #nav-spender-werden ul li:last-of-type {
-  border: none;
+	border: none;
 }
-
 #nav-spender-werden ul li a {
-  color: white;
+	color: white;
 }
-
 .form-search input {
-  background: url('../img/bg-search-form-input.png') no-repeat right center;
-  padding: 3px 0 3px 10px;
-  height: 34px;
-  border-radius: 3px;
-  border-color: #d3d2ca;
-  line-height: 20px;
-  border: 1px solid grey;
+	background: url('../img/bg-search-form-input.png') no-repeat right center;
+	padding: 3px 0 3px 10px;
+	height: 34px;
+	border-radius: 3px;
+	border-color: #d3d2ca;
+	line-height: 20px;
+	border: 1px solid grey;
 }
-
 h1 {
-  text-align: center;
-  color: red;
-  font-size: 1.875rem;
-  margin-top: 2.75rem;
-  margin-bottom: 2.75rem;
+	text-align: center;
+	color: red;
+	font-size: 1.875rem;
+	margin-top: 2.75rem;
+	margin-bottom: 2.75rem;
 }
-
 @media screen and (min-width: 870px) {
-  h1 {
-    font-size: 3.5rem;
-  }
+	h1 {
+		font-size: 3.5rem;
+	}
 }
-
 #become-a-donor {
-  padding-bottom: 1rem;
+	padding-bottom: 1rem;
 }
-
 @media screen and (min-width: 870px) {
-  #become-a-donor>section {
-    float: right;
-    width: 75%;
-  }
-
-  #become-a-donor>aside {
-    float: left;
-    width: 23%;
-  }
+	#become-a-donor > section {
+		float: right;
+		width: 75%;
+	}
+	#become-a-donor > aside {
+		float: left;
+		width: 23%;
+	}
 }
-
 #become-a-donor aside figure {
-  margin-top: 1rem;
+	margin-top: 1rem;
 }
-
 #become-a-donor section h3, #become-a-donor section h2 {
-  text-align: center;
-  margin-bottom: 1rem;
-  font-size: 2rem;
+	text-align: center;
+	margin-bottom: 1rem;
+	font-size: 2rem;
 }
-
 #become-a-donor .question h2, #become-a-donor section h3 {
-  font-weight: 400;
-  font-size: 2rem;
+	font-weight: 400;
+	font-size: 2rem;
 }
-
 #become-a-donor section p {
-  margin-top: 1rem;
-  margin-bottom: 1rem;
+	margin-top: 1rem;
+	margin-bottom: 1rem;
 }
-
 #become-a-donor .part:first-of-type p {
-  text-align: center;
+	text-align: center;
 }
-
 #become-a-donor .become-a-donor-button {
-  display: block;
-  color: white;
-  font-weight: 400;
-  background-color: #43b02a;
-  text-transform: uppercase;
-  text-decoration: none;
-  padding: 20px;
-  font-size: .875rem;
-  text-align: center;
-  border-radius: 7px;
-  border: none;
-  cursor: pointer;
+	display: block;
+	color: white;
+	font-weight: 400;
+	background-color: #43b02a;
+	text-transform: uppercase;
+	text-decoration: none;
+	padding: 20px;
+	font-size: .875rem;
+	text-align: center;
+	border-radius: 7px;
+	border: none;
+	cursor: pointer;
 }
-
 #become-a-donor .question {
-  min-height: 295px;
-  text-align: center;
+	min-height: 295px;
+	text-align: center;
 }
-
 #become-a-donor .part:first-of-type section {
-  padding: 25px 75px;
-  border: 1px solid #d3d2ca;
+	padding: 25px 75px;
+	border: 1px solid #d3d2ca;
 }
-
 #become-a-donor .part {
-  display: flex;
-  flex-direction: row;
-  border: 1px solid #d3d2ca;
-  background-color: #f1f0ee;
+	display: flex;
+	flex-direction: row;
+	border: 1px solid #d3d2ca;
+	background-color: #f1f0ee;
 }
-
-#become-a-donor .part>nav {
-  flex-basis: 20%;
+#become-a-donor .part > nav {
+	flex-basis: 20%;
 }
-
-#become-a-donor .part>section {
-  flex-basis: 80%;
-  padding: 15px;
+#become-a-donor .part > section {
+	flex-basis: 80%;
+	padding: 15px;
 }
-
 #become-a-donor .nav-buttons {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-around;
-  padding-top: 20px;
-  padding-bottom: 20px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	padding-top: 20px;
+	padding-bottom: 20px;
 }
-
 #become-a-donor .part:first-of-type {
-  display: block;
+	display: block;
 }
-
 #become-a-donor .part nav ul {
-  list-style-type: none;
-  display: flex;
-  flex-direction: column;
-  height: auto;
-  font-family: "DKMS-Brushed", Arial, Helvetica, "Nimbus Sans L", sans-serif;
-  font-size: 3.5rem;
+	list-style-type: none;
+	display: flex;
+	flex-direction: column;
+	height: auto;
+	font-family: "DKMS-Brushed", Arial, Helvetica, "Nimbus Sans L", sans-serif;
+	font-size: 3.5rem;
 }
-
 #become-a-donor .part nav ul li {
-  height: 85px;
-  flex-grow: 1;
-  align-self: stretch;
-  border: 1px solid #d3d2ca;
-  list-style-position: inside;
-  padding-left: 5px;
+	height: 85px;
+	flex-grow: 1;
+	align-self: stretch;
+	border: 1px solid #d3d2ca;
+	list-style-position: inside;
+	padding-left: 5px;
 }
-
 #become-a-donor .part nav ul li span.description {
-  font-size: 1rem;
-  font-family: Verdana, sans-serif;
-  padding-left: 10px;
+	font-size: 1rem;
+	font-family: Verdana, sans-serif;
+	padding-left: 10px;
 }
-
 #become-a-donor .part nav ul li.active {
-  color: #e2001a;
-  background-color: #d3d2ca;
+	color: #e2001a;
+	background-color: #d3d2ca;
 }
-
 #become-a-donor #part1 img {
-  max-width: 120px;
+	max-width: 120px;
 }
-
 #become-a-donor #part1 p {
-  text-align: center;
+	text-align: center;
 }
-
 #become-a-donor .question-img {
-  display: block;
-  margin: 0 auto;
-  max-width: 50%;
-  padding-top: 20px;
+	display: block;
+	margin: 0 auto;
+	max-width: 50%;
+	padding-top: 20px;
 }
-
 #become-a-donor #img-measurements.question-img {
-  max-width: 25%;
+	max-width: 25%;
 }
-
 #become-a-donor .select-age {
-  text-align: center;
+	text-align: center;
 }
-
 #become-a-donor #a-check-illness {
-  color: black;
-  font-weight: 700;
-  text-transform: uppercase;
+	color: black;
+	font-weight: 700;
+	text-transform: uppercase;
 }
-
 #become-a-donor #table-cell-metric-height, #become-a-donor #table-cell-metric-weight {
-  text-align: left;
-  width: 150px;
+	text-align: left;
+	width: 150px;
 }
-
 #become-a-donor #metric-weight, #become-a-donor #metric-height {
-  width: 60px;
+	width: 60px;
 }
-
 #article-info p:first-of-type {
-  margin-bottom: 2rem;
+	margin-bottom: 2rem;
 }
-
 article, .article-without-heading {
-  padding-top: 2rem;
+	padding-top: 2rem;
 }
-
 #how-stem-cell-donations-work, #other-ways-to-help, #share, #article-info {
-  background-color: #f1f0ee;
+	background-color: #f1f0ee;
 }
-
 #how-stem-cell-donations-work section header {
-  height: 390px;
+	height: 390px;
 }
-
 #how-stem-cell-donations-work h2, #how-stem-cell-donations-work section header h3 {
-  margin-bottom: 1rem;
+	margin-bottom: 1rem;
 }
-
 #details-ueber-die-stammzellspende footer {
-  text-align: center;
-  color: #5c5c5c;
-  font-weight: 400;
+	text-align: center;
+	color: #5c5c5c;
+	font-weight: 400;
 }
-
 #details-ueber-die-stammzellspende footer a {
-  background-color: #ffb500;
-  text-decoration: none;
-  color: white;
-  text-transform: uppercase;
-  border-radius: 6px;
-  padding: 9px 20px;
-  display: inline-block;
+	background-color: #ffb500;
+	text-decoration: none;
+	color: white;
+	text-transform: uppercase;
+	border-radius: 6px;
+	padding: 9px 20px;
+	display: inline-block;
 }
-
 .details-content {
-  margin-top: 1rem;
+	margin-top: 1rem;
 }
-
 .details-content.details-closed {
-  display: none;
+	display: none;
 }
-
 .details-content h3, .details-content p {
-  padding-bottom: 1rem;
-  line-height: 24px;
-  font-size: .875rem;
+	padding-bottom: 1rem;
+	line-height: 24px;
+	font-size: .875rem;
 }
-
 .details-content h3 {
-  font-weight: 400;
-  text-transform: uppercase;
+	font-weight: 400;
+	text-transform: uppercase;
 }
-
 .details-link {
-  color: black;
-  text-transform: uppercase;
+	color: black;
+	text-transform: uppercase;
 }
-
 .details-link.details-open {
-  color: red;
+	color: red;
 }
-
 #other-ways-to-help header {
-  font-size: calc(0.7rem + 0.65vw);
-  /* see https://bits.theorem.co/css-pro-tips-responsive-font-sizes-and-when-to-use-which-units/ */
-  margin-bottom: 3rem;
+	font-size: calc(0.7rem + 0.65vw);
+	/* see https://bits.theorem.co/css-pro-tips-responsive-font-sizes-and-when-to-use-which-units/ */
+	margin-bottom: 3rem;
 }
-
 #other-ways-to-help .background-holder {
-  background: url('../img/other_ways_to_help_bg.png') no-repeat;
-  background-position: center center;
-  height: 130px;
+	background: url('../img/other_ways_to_help_bg.png') no-repeat;
+	background-position: center center;
+	height: 130px;
 }
-
 #other-ways-to-help #header1 {
-  font-family: "DKMS-Brushed", Arial, Helvetica, "Nimbus Sans L", sans-serif;
-  font-size: 1.3rem;
-  float: left;
-  width: 50%;
-  text-align: left;
-  color: white;
-  font-weight: 400;
-  padding-top: 25px;
-  padding-right: 40px;
+	font-family: "DKMS-Brushed", Arial, Helvetica, "Nimbus Sans L", sans-serif;
+	font-size: 1.3rem;
+	float: left;
+	width: 50%;
+	text-align: left;
+	color: white;
+	font-weight: 400;
+	padding-top: 25px;
+	padding-right: 40px;
 }
-
 #other-ways-to-help #header2 {
-  display: none;
+	display: none;
 }
-
 #other-ways-to-help #header3 {
-  padding-top: 25px;
-  text-align: center;
+	padding-top: 25px;
+	text-align: center;
 }
-
 /* DESKTOP */
 @media screen and (min-width: 870px) {
-  #other-ways-to-help #header1 {
-    text-align: right;
-  }
-
-  #other-ways-to-help #header2 {
-    display: block;
-    font-family: "DKMS-Brushed", Arial, Helvetica, "Nimbus Sans L", sans-serif;
-    font-size: 1.3rem;
-    color: #5bc2e8;
-    float: left;
-    width: 50%;
-    padding-top: 25px;
-    padding-left: 40px;
-    text-align: left;
-  }
-
-  #other-ways-to-help #header3 {
-    display: none;
-  }
+	#other-ways-to-help #header1 {
+		text-align: right;
+	}
+	#other-ways-to-help #header2 {
+		display: block;
+		font-family: "DKMS-Brushed", Arial, Helvetica, "Nimbus Sans L", sans-serif;
+		font-size: 1.3rem;
+		color: #5bc2e8;
+		float: left;
+		width: 50%;
+		padding-top: 25px;
+		padding-left: 40px;
+		text-align: left;
+	}
+	#other-ways-to-help #header3 {
+		display: none;
+	}
 }
-
 #other-ways-to-help div a {
-  display: block;
-  color: white;
-  text-transform: uppercase;
-  text-decoration: none;
-  text-align: center;
-  padding-top: 12px;
-  padding-bottom: 12px;
-  border-radius: 7px;
-  margin-bottom: 1rem;
+	display: block;
+	color: white;
+	text-transform: uppercase;
+	text-decoration: none;
+	text-align: center;
+	padding-top: 12px;
+	padding-bottom: 12px;
+	border-radius: 7px;
+	margin-bottom: 1rem;
 }
-
 #other-ways-to-help div p {
-  text-align: center;
+	text-align: center;
 }
-
 #other-ways-to-help div:nth-of-type(1) a {
-  background-color: #005eb8;
+	background-color: #005eb8;
 }
-
 #other-ways-to-help div:nth-of-type(2) a {
-  background-color: #5c068c;
+	background-color: #5c068c;
 }
-
 #other-ways-to-help div:nth-of-type(3) a {
-  background-color: #ffb500;
+	background-color: #ffb500;
 }
-
 #nav-share ul.menu {
-  justify-content: center;
+	justify-content: center;
 }
-
 #nav-share ul.menu li {
-  margin: 0 50px;
+	margin: 0 50px;
 }
-
 #share {
-  padding: 20px 0;
+	padding: 20px 0;
 }
-
 #share h3 {
-  text-align: center;
-  margin-bottom: 18px;
+	text-align: center;
+	margin-bottom: 18px;
 }
-
 /* freie Klassen */
 /* START: menu */
 ul.menu {
-  list-style-type: none;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
+	list-style-type: none;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
 }
-
 ul.menu li a {
-  text-decoration: none;
+	text-decoration: none;
 }
-
 /* END: menu */
-.dreispalter>* {
-  padding-bottom: 1.5rem;
+.dreispalter > * {
+	padding-bottom: 1.5rem;
 }
-
 @media screen and (min-width: 870px) {
-
-  /* START: dreispalter */
-  .dreispalter {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
-  }
-
-  .dreispalter>* {
-    flex-basis: 30%;
-  }
-
-  /* END: dreispalter */
+	/* START: dreispalter */
+	.dreispalter {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: space-between;
+	}
+	.dreispalter > * {
+		flex-basis: 30%;
+	}
+	/* END: dreispalter */
 }
-
 .active-link {
-  font-weight: bold;
+	font-weight: bold;
 }
-
 .center {
-  max-width: 22.852em;
-  margin-left: auto;
-  margin-right: auto;
+	max-width: 22.852em;
+	margin-left: auto;
+	margin-right: auto;
 }
-
 @media screen and (min-width: 870px) {
-  .center {
-    max-width: 1040px;
-  }
+	.center {
+		max-width: 1040px;
+	}
 }
-
 .clearfix:after {
-  content: "";
-  display: block;
-  clear: both;
+	content: "";
+	display: block;
+	clear: both;
 }
-
 /* START: Table */
 .table {
-  display: table;
-  border-spacing: 0.5em;
+	display: table;
+	border-spacing: 0.5em;
 }
-
 .table-row {
-  display: table-row;
+	display: table-row;
 }
-
 .table-cell {
-  display: table-cell;
+	display: table-cell;
 }
-
 /* END: Table */
 #topnav, #navchecker {
-  display: none;
+	display: none;
 }
-
 /* mobile --------------------------------------*/
 @media screen and (max-width: 869px) {
-
-  /* BEGIN: navi */
-  #navchecker {
-    display: none;
-  }
-
-  #topnav {
-    display: block;
-    position: fixed;
-    top: 0;
-    right: -280px;
-    width: 280px;
-    height: 100vh;
-    background: white;
-    z-index: 100;
-    transition: 0.3s;
-  }
-
-  #navchecker:checked~#topnav {
-    right: 0;
-  }
-
-  #topnav p {
-    position: absolute;
-    top: 30px;
-    left: -57px;
-    line-height: 40px;
-    font-size: 3.5rem;
-    background: white;
-    text-align: center;
-    color: red;
-    width: 57px;
-  }
-
-  #topnav label {
-    display: block;
-    transition: 0.3s;
-  }
-
-  #navchecker:checked~#topnav label {
-    transform: rotate(45deg);
-  }
-
-  #topnav ul {
-    list-style: none;
-  }
-
-  #topnav a {
-    text-decoration: none;
-    color: #fff;
-    border-bottom: 1px solid #fff;
-    display: block;
-    line-height: 50px;
-    padding-left: 20px;
-    font-size: .75rem;
-  }
-
-  #topnav a.akt {
-    background: darkorange;
-  }
-
-  #langnav {
-    border-bottom: 1px solid #fff;
-  }
-
-  #langnav ul {
-    list-style: none;
-  }
-
-  #nav-language2 a {
-    line-height: 34px;
-  }
-
-  #nav-language2.menu {
-    padding-right: 35px;
-    padding-top: 30px;
-    justify-content: flex-end;
-  }
-
-  #nav-grundlegende-infos2 li a, #nav-language2 li a {
-    color: black;
-    text-transform: uppercase;
-  }
-
-  .form-search {
-    float: none;
-    margin: 0 35px 20px;
-  }
-
-  .form-search input {
-    width: 200px;
-    float: right;
-  }
-
-  #nav-spender-werden2 {
-    background-color: #e2001a;
-  }
-
-  #nav-grundlegende-infos2 li a, #nav-spender-werden2 li a {
-    font-weight: 700;
-  }
-
-  #nav-spender-werden2 li a {
-    border-bottom: 1px solid #ec5464;
-  }
-
-  #nav-grundlegende-infos2 li a {
-    border-bottom: 1px solid #eaeaea;
-  }
-
-  #nav-language, #nav-grundlegende-infos, #nav-spender-werden, #id-form-search {
-    display: none;
-  }
-
-  /* END: navi */
+	/* BEGIN: navi */
+	#navchecker {
+		display: none;
+	}
+	#topnav {
+		display: block;
+		position: fixed;
+		top: 0;
+		right: -280px;
+		width: 280px;
+		height: 100vh;
+		background: white;
+		z-index: 100;
+		transition: 0.3s;
+	}
+	#navchecker:checked ~ #topnav {
+		right: 0;
+	}
+	#topnav p {
+		position: absolute;
+		top: 30px;
+		left: -57px;
+		line-height: 40px;
+		font-size: 3.5rem;
+		background: white;
+		text-align: center;
+		color: red;
+		width: 57px;
+	}
+	#topnav label {
+		display: block;
+		transition: 0.3s;
+	}
+	#navchecker:checked ~ #topnav label {
+		transform: rotate(45deg);
+	}
+	#topnav ul {
+		list-style: none;
+	}
+	#topnav a {
+		text-decoration: none;
+		color: #fff;
+		border-bottom: 1px solid #fff;
+		display: block;
+		line-height: 50px;
+		padding-left: 20px;
+		font-size: .75rem;
+	}
+	#topnav a.akt {
+		background: darkorange;
+	}
+	#langnav {
+		border-bottom: 1px solid #fff;
+	}
+	#langnav ul {
+		list-style: none;
+	}
+	#nav-language2 a {
+		line-height: 34px;
+	}
+	#nav-language2.menu {
+		padding-right: 35px;
+		padding-top: 30px;
+		justify-content: flex-end;
+	}
+	#nav-grundlegende-infos2 li a, #nav-language2 li a {
+		color: black;
+		text-transform: uppercase;
+	}
+	.form-search {
+		float: none;
+		margin: 0 35px 20px;
+	}
+	.form-search input {
+		width: 200px;
+		float: right;
+	}
+	#nav-spender-werden2 {
+		background-color: #e2001a;
+	}
+	#nav-grundlegende-infos2 li a, #nav-spender-werden2 li a {
+		font-weight: 700;
+	}
+	#nav-spender-werden2 li a {
+		border-bottom: 1px solid #ec5464;
+	}
+	#nav-grundlegende-infos2 li a {
+		border-bottom: 1px solid #eaeaea;
+	}
+	#nav-language, #nav-grundlegende-infos, #nav-spender-werden, #id-form-search {
+		display: none;
+	}
+	/* END: navi */
 }
